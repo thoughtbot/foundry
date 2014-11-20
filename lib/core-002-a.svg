@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  width="160px" height="160px" viewBox="-219 321 160 160" enable-background="new -219 321 160 160" xml:space="preserve">
+  <path fill="#CCCCCC" d="M-120.2,452.5c0.1,1.5,1.3,2.6,2.8,2.7l10.5,0.8v1h-64v-1l11.4-0.8c1.5-0.1,2.6-1.3,2.8-2.7l1.8-20.4h33
+    L-120.2,452.5z"/>
+  <rect x="-171" y="456" fill="#E0E0E0" width="64" height="1"/>
+  <path fill="#383838" d="M-67,433h-144v-93c0-1.7,1.3-3,3-3h138c1.7,0,3,1.3,3,3V433z"/>
+  <path fill="#E0E0E0" d="M-70,441h-138c-1.7,0-3-1.3-3-3v-13h144v13C-67,439.7-68.3,441-70,441z"/>
+  <rect x="-203" y="345" fill="#F9F9F9" width="128" height="72"/>
+  <circle fill="#2B2B2B" cx="-139" cy="341.5" r="0.5"/>
+  <circle fill="#383838" cx="-139" cy="341.5" r="0.2"/>
+  <circle fill="#CCCCCC" cx="-139" cy="433" r="4"/>
+</svg>
