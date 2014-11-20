@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  width="160px" height="160px" viewBox="-219 321 160 160" enable-background="new -219 321 160 160" xml:space="preserve">
+  <path fill="#AAAAAA" d="M-179,449L-179,449c-0.6,0-1-0.4-1-1v-6c0-0.6,0.4-1,1-1l0,0c0.6,0,1,0.4,1,1v6
+    C-178,448.6-178.4,449-179,449z"/>
+  <path fill="#CCCCCC" d="M-179,448L-179,448c-0.6,0-1-0.4-1-1v-4c0-0.6,0.4-1,1-1l0,0c0.6,0,1,0.4,1,1v4
+    C-178,447.6-178.4,448-179,448z"/>
+  <path fill="#B28B70" d="M-103,337h-74v128h74c3.3,0,6-2.7,6-6V343C-97,339.7-99.7,337-103,337z"/>
+  <path fill="#AAAAAA" d="M-179,361L-179,361c-0.6,0-1-0.4-1-1v-6c0-0.6,0.4-1,1-1l0,0c0.6,0,1,0.4,1,1v6
+    C-178,360.6-178.4,361-179,361z"/>
+  <path fill="#CCCCCC" d="M-179,360L-179,360c-0.6,0-1-0.4-1-1v-4c0-0.6,0.4-1,1-1l0,0c0.6,0,1,0.4,1,1v4
+    C-178,359.6-178.4,360-179,360z"/>
+  <path fill="#CCC2BC" d="M-103,338h-75v126h75c2.8,0,5-2.2,5-5V343C-98,340.2-100.2,338-103,338z"/>
+  <path fill="#AAAAAA" d="M-179,405L-179,405c-0.6,0-1-0.4-1-1v-6c0-0.6,0.4-1,1-1l0,0c0.6,0,1,0.4,1,1v6
+    C-178,404.6-178.4,405-179,405z"/>
+  <path fill="#CCCCCC" d="M-179,404L-179,404c-0.6,0-1-0.4-1-1v-4c0-0.6,0.4-1,1-1l0,0c0.6,0,1,0.4,1,1v4
+    C-178,403.6-178.4,404-179,404z"/>
+  <path fill="#CCA27D" d="M-105,337h-74v128h74c3.3,0,6-2.7,6-6V343C-99,339.7-101.7,337-105,337z"/>
+  <text transform="matrix(1 0 0 1 -163.9888 377)" fill="#666666" font-family="'Helvetica-Bold'" font-size="12" letter-spacing="2">NOTES</text>
+</svg>
