@@ -1,0 +1,99 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="160px" height="160px" viewBox="-219 321 160 160">
+<path fill="#AAAAAA" d="M-77,437h-125c-0.6,0-1-0.4-1-1v-44c0-0.6,0.4-1,1-1h125V437z"/>
+<path fill="#CCCCCC" d="M-77,436h-120c-0.6,0-1-0.4-1-1v-43c0-0.6,0.4-1,1-1h120V436z"/>
+<path fill="#555555" d="M-77,437h-104c-3.3,0-6-2.7-6-6v-34c0-3.3,2.7-6,6-6h104V437z"/>
+<path fill="#AAAAAA" d="M-76,391h-126c-0.6,0-1-0.4-1-1v-14c0-1.7,1.3-3,3-3h125v17C-75,390.6-75.4,391-76,391z"/>
+<path fill="#CCCCCC" d="M-76,391h-55v-1h-66c-0.6,0-1-0.4-1-1v-13c0-1.7,1.3-3,3-3h120v17C-75,390.6-75.4,391-76,391z"/>
+<rect x="-153" y="417" fill="#333333" width="9" height="11"/>
+<rect x="-149" y="424" fill="#333333" width="9" height="8"/>
+<rect x="-153" y="416" fill="#888888" width="9" height="11"/>
+<rect x="-149" y="423" fill="#888888" width="9" height="8"/>
+<circle fill="#E0E0E0" cx="-131" cy="409" r="25"/>
+<circle fill="#F5F5F5" cx="-131" cy="409" r="23"/>
+<circle fill="#555555" cx="-131" cy="409" r="20"/>
+<circle fill="#333333" cx="-131" cy="409" r="16"/>
+<path fill="#888888" d="M-119,421c-6.6,6.6-17.4,6.6-24,0l-1.4,1.4c7.4,7.4,19.5,7.4,26.9,0L-119,421z"/>
+<circle fill="#E0E0E0" cx="-159" cy="409" r="4"/>
+<path fill="#CCCCCC" d="M-75,374h-74v-7h71c1.7,0,3,1.3,3,3V374z"/>
+<path fill="#AAAAAA" d="M-76,441h-126c-0.6,0-1-0.4-1-1v-2c0-0.6,0.4-1,1-1h126c0.6,0,1,0.4,1,1v2C-75,440.6-75.4,441-76,441z"/>
+<path fill="#CCCCCC" d="M-76,441h-121c-0.6,0-1-0.4-1-1v-2c0-0.6,0.4-1,1-1h121c0.6,0,1,0.4,1,1v2C-75,440.6-75.4,441-76,441z"/>
+<rect x="-188" y="371" fill="#AAAAAA" width="16" height="2"/>
+<rect x="-187" y="367" fill="#AAAAAA" width="14" height="4"/>
+<path fill="#E0E0E0" d="M-173,371h-11c-0.6,0-1-0.4-1-1v-2c0-0.6,0.4-1,1-1h11V371z"/>
+<polygon fill="#AAAAAA" points="-175,367 -185,367 -184,366 -176,366 "/>
+<g>
+	<rect x="-170" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-169.5" y="368" fill="#666666" width="0.5" height="4"/>
+	<rect x="-170" y="367.5" fill="#AAAAAA" width="18" height="0.5"/>
+	<rect x="-170" y="372" fill="#666666" width="18" height="1"/>
+	<rect x="-188" y="372" fill="#666666" width="16" height="1"/>
+	<polygon fill="#AAAAAA" points="-171,369 -170.5,368.5 -170.5,372 -171,372 	"/>
+	<polygon fill="#666666" points="-170.5,368.5 -170,368 -170,372 -170.5,372 	"/>
+	<rect x="-169" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-168.5" y="368" fill="#666666" width="0.5" height="4"/>
+	<rect x="-168" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-167.5" y="368" fill="#666666" width="0.5" height="4"/>
+	<rect x="-167" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-166.5" y="368" fill="#888888" width="0.5" height="4"/>
+	<rect x="-165" y="368" fill="#E0E0E0" width="0.5" height="4"/>
+	<rect x="-164.5" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-166" y="368" fill="#CCCCCC" width="0.5" height="4"/>
+	<rect x="-165.5" y="368" fill="#888888" width="0.5" height="4"/>
+	<rect x="-164" y="368" fill="#E0E0E0" width="0.5" height="4"/>
+	<rect x="-163.5" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-163" y="368" fill="#E0E0E0" width="0.5" height="4"/>
+	<rect x="-162.5" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-162" y="368" fill="#E0E0E0" width="0.5" height="4"/>
+	<rect x="-161.5" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-160" y="368" fill="#E0E0E0" width="0.5" height="4"/>
+	<rect x="-159.5" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-161" y="368" fill="#E0E0E0" width="0.5" height="4"/>
+	<rect x="-160.5" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-159" y="368" fill="#E0E0E0" width="0.5" height="4"/>
+	<rect x="-158.5" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-158" y="368" fill="#E0E0E0" width="0.5" height="4"/>
+	<rect x="-157.5" y="368" fill="#888888" width="0.5" height="4"/>
+	<rect x="-157" y="368" fill="#CCCCCC" width="0.5" height="4"/>
+	<rect x="-156.5" y="368" fill="#888888" width="0.5" height="4"/>
+	<rect x="-155" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-154.5" y="368" fill="#666666" width="0.5" height="4"/>
+	<rect x="-156" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-155.5" y="368" fill="#666666" width="0.5" height="4"/>
+	<rect x="-154" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-153.5" y="368" fill="#666666" width="0.5" height="4"/>
+	<rect x="-153" y="368" fill="#AAAAAA" width="0.5" height="4"/>
+	<rect x="-152.5" y="368" fill="#666666" width="0.5" height="4"/>
+	<polygon fill="#AAAAAA" points="-152,368 -151.5,368.5 -151.5,372 -152,372 	"/>
+	<polygon fill="#666666" points="-151.5,368.5 -151,369 -151,372 -151.5,372 	"/>
+</g>
+<circle fill="#C10017" cx="-131" cy="375" r="5"/>
+<path fill="#FFFFFF" d="M-133.5,377L-133.5,377c-0.3,0-0.5-0.2-0.5-0.5v-3c0-0.3,0.2-0.5,0.5-0.5l0,0c0.3,0,0.5,0.2,0.5,0.5v3
+	C-133,376.8-133.2,377-133.5,377z"/>
+<path fill="#FFFFFF" d="M-130.5,377L-130.5,377c-0.3,0-0.5-0.2-0.5-0.5v-1c0-0.3,0.2-0.5,0.5-0.5l0,0c0.3,0,0.5,0.2,0.5,0.5v1
+	C-130,376.8-130.2,377-130.5,377z"/>
+<path fill="#FFFFFF" d="M-131,376.5L-131,376.5c0-0.3,0.2-0.5,0.5-0.5h2c0.3,0,0.5,0.2,0.5,0.5l0,0c0,0.3-0.2,0.5-0.5,0.5h-2
+	C-130.8,377-131,376.8-131,376.5z"/>
+<path fill="#FFFFFF" d="M-134,374.5L-134,374.5c0-0.3,0.2-0.5,0.5-0.5h1c0.3,0,0.5,0.2,0.5,0.5l0,0c0,0.3-0.2,0.5-0.5,0.5h-1
+	C-133.8,375-134,374.8-134,374.5z"/>
+<path fill="#FFFFFF" d="M-128.5,375L-128.5,375c-0.3,0-0.5-0.2-0.5-0.5v-1c0-0.3,0.2-0.5,0.5-0.5l0,0c0.3,0,0.5,0.2,0.5,0.5v1
+	C-128,374.8-128.2,375-128.5,375z"/>
+<circle fill="#FFFFFF" cx="-130.5" cy="373.5" r="0.5"/>
+<path fill="#555555" d="M-192.5,385h-1c-0.3,0-0.5-0.2-0.5-0.5v-7c0-0.3,0.2-0.5,0.5-0.5h1c0.3,0,0.5,0.2,0.5,0.5v7
+	C-192,384.8-192.2,385-192.5,385z"/>
+<path fill="#555555" d="M-190,384.5v-1c0-0.3,0.2-0.5,0.5-0.5h5c0.3,0,0.5,0.2,0.5,0.5v1c0,0.3-0.2,0.5-0.5,0.5h-5
+	C-189.8,385-190,384.8-190,384.5z"/>
+<path fill="#555555" d="M-196,380.5v-1c0-0.3,0.2-0.5,0.5-0.5h3c0.3,0,0.5,0.2,0.5,0.5v1c0,0.3-0.2,0.5-0.5,0.5h-3
+	C-195.8,381-196,380.8-196,380.5z"/>
+<path fill="#555555" d="M-184.5,381h-1c-0.3,0-0.5-0.2-0.5-0.5v-3c0-0.3,0.2-0.5,0.5-0.5h1c0.3,0,0.5,0.2,0.5,0.5v3
+	C-184,380.8-184.2,381-184.5,381z"/>
+<circle fill="#555555" cx="-189" cy="378" r="1"/>
+<path fill="#333333" d="M-85,387h-16c-1.1,0-2-0.9-2-2v-12c0-1.1,0.9-2,2-2h16c1.1,0,2,0.9,2,2v12C-83,386.1-83.9,387-85,387z"/>
+<path fill="#A3C9CC" d="M-85,386h-16c-0.6,0-1-0.4-1-1v-1h18v1C-84,385.6-84.4,386-85,386z"/>
+<path fill="#A3C9CC" d="M-101,372h16c0.6,0,1,0.4,1,1v1h-18v-1C-102,372.4-101.6,372-101,372z"/>
+<path fill="#333333" d="M-156,383h-6c-0.6,0-1-0.4-1-1v-4c0-0.6,0.4-1,1-1h6c0.6,0,1,0.4,1,1v4C-155,382.6-155.4,383-156,383z"/>
+<circle fill="#F5F5F5" cx="-131" cy="391" r="1"/>
+<circle fill="#333333" cx="-144.5" cy="371.5" r="2.5"/>
+<circle fill="#F5F5F5" cx="-159" cy="409" r="3"/>
+<circle fill="#AAAAAA" cx="-159" cy="409" r="2"/>
+</svg>
