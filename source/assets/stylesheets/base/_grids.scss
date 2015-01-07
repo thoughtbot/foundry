@@ -1,0 +1,108 @@
+// Grid Styles
+// ============================================================
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+// Grid Variables
+
+$row-width: rem(1000) !default;
+$column-gutter: rem(30) !default;
+$total-columns: 12 !default;
+
+// Grid-Calc Function
+
+@function grid-calc($colNumber, $totalColumns) {
+  @return percentage($colNumber / $totalColumns);
+}
+
+// ========= Grid Mixins ========
+
+// Create default and collapsed rows
+
+// $behavior - Default: false. Options: nest, false.
+@mixin grid-row($behavior: false) {
+  @if $behavior == collapse {
+    // use @include grid-row(collapse) to collapsed a container row margins
+    margin: 0;
+    max-width: $row-width;
+    padding: 0;
+    width: 100%;
+  } @else {
+    // use @include grid-row to use a container row
+    margin-#{$default-float}: auto;
+    margin-#{$opposite-direction}: auto;
+    max-width: $row-width;
+    padding-left: $column-gutter / 2;
+    padding-right: $column-gutter / 2;
+    width: 100%;
+  }
+
+  @include clearfix;
+}
+
+// Creates a column, should be used inside of a media query to control layouts
+//
+// $columns - The number of columns this should be
+// $last - Is this the last column? Default: false.
+// $center - Center these columns? Default: false.
+// $collapse - Get rid of gutter padding on column? Default: false.
+// $float - Should this float? Default: true. Options: true, false, left, right.
+
+@mixin grid-column(
+    $columns: false,
+    $last: false,
+    $center: false,
+    $collapse: false,
+    $float: true
+) {
+
+  @if $collapse == none {
+  } @else if $collapse {
+    // If collapsed, get rid of gutter padding
+    padding-left: 0;
+    padding-right: 0;
+  } @else if $collapse == false {
+    // Gutter padding whenever a column isn't set to collapse
+    // Use $collapse:null to do nothing
+    padding-left: $column-gutter / 2;
+    padding-right: $column-gutter / 2;
+  }
+
+  @if $columns {
+    // If a column number is given, calculate width
+    width: grid-calc($columns, $total-columns);
+
+    @if $last {
+      // If last column, float naturally instead of to the right
+      float: $opposite-direction;
+    }
+  }
+
+  @if $center {
+    margin-#{$default-float}: auto;
+    margin-#{$opposite-direction}: auto;
+    float: none !important;
+  }
+
+  @if $float {
+
+    @if $float == left or $float == true {
+      float: $default-float;
+    } @else if $float == right {
+      float: $opposite-direction;
+    } @else {
+      float: none;
+    }
+  }
+}
+
+@mixin simple-column() {
+    max-width: ($row-width / 1.5);
+    padding-left: $column-gutter;
+    padding-right: $column-gutter;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

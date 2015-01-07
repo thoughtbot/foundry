@@ -1,11 +1,61 @@
-// Typography
-$sans-serif: $helvetica;
-$serif: $georgia;
-$base-font-family: $sans-serif;
-$header-font-family: $base-font-family;
+// Project Settings
+// ============================================================
+
+$prefix-for-webkit:    false;
+$prefix-for-mozilla:   false;
+$prefix-for-microsoft: false;
+$prefix-for-opera:     false;
+
+// ========= Typography & Metrics =========
+
+$base-font-size: 1em;
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+// Font Families
+$sans-serif: $helvetica, sans-serif;
+$sans-serif-alt: sans-serif;
+$serif: serif;
+$base-font-family: $sans-serif-alt;
+$header-font-family: $sans-serif-alt;
+
+// ========= Grid Variables =========
+
+$default-float: left;
+$text-direction: ltr;
+$opposite-direction: right;
+
+@if $text-direction == ltr {
+  $default-float: left;
+  $opposite-direction: right;
+} @else {
+  $default-float: right;
+  $opposite-direction: left;
+}
+
+$row-width: rem(1440);
+$column-gutter: rem(20);
+$total-columns: 12;
+
+// ========= Media Queries =========
+
+// Media Queries
+
+$small-screen: 768px !default;
+$medium-screen: 1280px !default;
+$large-screen: 1440px !default;
+
+$screen: "only screen" !default;
+$small: "only screen and (min-width: #{$small-screen})" !default;
+$medium: "only screen and (min-width:#{$medium-screen})" !default;
+$large: "only screen and (min-width:#{$large-screen})" !default;
+$landscape: "only screen and (orientation: landscape)" !default;
+$portrait: "only screen and (orientation: portrait)" !default;
+
+// ========= Core Settings =========
 
 // Font Sizes
-$base-font-size: 1em;
+$h0-font-size: $base-font-size * 2.5;
 $h1-font-size: $base-font-size * 2.25;
 $h2-font-size: $base-font-size * 2;
 $h3-font-size: $base-font-size * 1.75;
@@ -13,9 +63,7 @@ $h4-font-size: $base-font-size * 1.5;
 $h5-font-size: $base-font-size * 1.25;
 $h6-font-size: $base-font-size;
 
-// Line height
-$base-line-height: 1.5;
-$header-line-height: 1.25;
+$small-font-size: 0.8em;
 
 // Other Sizes
 $base-border-radius: 3px;
