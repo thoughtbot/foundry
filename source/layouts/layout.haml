@@ -10,3 +10,12 @@
 
   %body{class: page_classes}
     = yield
+
+    %h2 Families
+    %ol
+      - data.library.families.each do |title, family|
+        %li
+          %h3
+            = family["title"]
+          %p
+            = family["description"]

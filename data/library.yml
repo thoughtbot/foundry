@@ -1,0 +1,12 @@
+families:
+  foundry-core:
+    title: "Foundry Core"
+    repo-url: "https://github.com/thoughtbot/foundry-core.git"
+    description: "The first family of Foundry ∞."
+
+  # Not production ready
+  #
+  # foundry-fellowly:
+  #   title: "Fellowly"
+  #   repo-url: "https://github.com/thoughtbot/finite-fellowly.git"
+  #   description: "A fun and easy mix of people and and heath centric things."
