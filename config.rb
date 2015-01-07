@@ -50,6 +50,8 @@ set :relative_links, true
 
 activate :autoprefixer
 
+set :haml, { :ugly => true, :format => :html5 }
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
