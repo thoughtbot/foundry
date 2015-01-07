@@ -10,9 +10,13 @@
 # Ignore the build directory
 /build
 
+# Ignore the components directory
+/source/assets/components
+
 # Ignore cache
 /.sass-cache
 /.cache
 
 # Ignore .DS_store file
 .DS_Store
+
