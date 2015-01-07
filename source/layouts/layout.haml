@@ -17,9 +17,14 @@
         %li
           %h3
             = family["title"]
+          %h6
+            %a{ href: family.repourl}
+              GitHub
           %p
             = family["description"]
           %ul
             - family.lib.each do |filename|
               %li
                 %img{ src: "assets/components" + family.path + filename}
+                %a{ href: "assets/components" + family.path + filename, download: true}
+                  Download

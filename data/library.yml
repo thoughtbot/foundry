@@ -1,7 +1,7 @@
 families:
-  foundry-core:
+  foundrycore:
     title: "Foundry Core"
-    repo-url: "https://github.com/thoughtbot/foundry-core.git"
+    repourl: "https://github.com/thoughtbot/foundry-core.git"
     description: "The first family of Foundry ∞."
     path: "/foundry-core/lib/"
     lib:
