@@ -15,3 +15,7 @@ gem 'bourbon'
 
 # Autoprefixer
 gem 'middleman-autoprefixer'
+
+gem 'sprockets'
+
+gem 'bower'

@@ -19,3 +19,7 @@
             = family["title"]
           %p
             = family["description"]
+          %ul
+            - family.lib.each do |filename|
+              %li
+                %img{ src: "assets/components" + family.path + filename}
