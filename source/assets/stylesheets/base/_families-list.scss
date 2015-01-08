@@ -1,0 +1,39 @@
+.families-list-item-gallery {
+  height: 30vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.families-list-item-gallery-item {
+  display: inline-block;
+  margin-bottom: 0;
+  min-height: 100%;
+  min-width: 30vw;
+  padding: 5em 6em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+
+  &:nth-child(2n) {
+    background-color: shade($base-background-color, 4);
+  }
+
+  &.centered-content {
+
+    .centered-content-inner {
+      @include position(absolute, 50% 0 null 0);
+      transform: translateY(-50%);
+    }
+  }
+
+  img,
+  a {
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    min-width: 100%;
+  }
+}

@@ -1,4 +1,5 @@
 button,
+.button,
 input[type="submit"] {
   @extend %button;
   @include appearance(none);

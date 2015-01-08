@@ -3,6 +3,7 @@
   border-top: em(2) solid $base-background-color;
   color: $base-background-color;
   min-height: 80vh;
+  padding-bottom: 2em;
   position: relative;
 }
 
@@ -19,6 +20,7 @@
     font-size: $h0-font-size;
     font-weight: 400;
     margin-top: 4em;
+    margin-bottom: 0.25em;
     max-width: 24em;
   }
 }
@@ -47,8 +49,12 @@
     }
   }
 }
+.header-description {
+  max-width: 60em;
+}
 
 .header-linktogallery {
+  margin-top: 0.5em;
   font-size: $h4-font-size;
   position: relative;
   transition: all 200ms ease-in-out;
@@ -83,8 +89,7 @@
   }
 }
 
-.page-header-container,
-.page-section {
+.page-header-container {
   @include simple-column;
 }
 

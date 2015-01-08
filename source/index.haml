@@ -4,30 +4,30 @@
     %h1.header-logo
       Foundry ∞
     %h2.header-subtitle
-      Providing a new generation of vector assets and infinite possibility for the interactive web and mobile applications
-      = link_to "more", "#description", class: "subtitle-linktodescription"
+      Providing a new generation of vector assets and infinite possibility for the interactive web and mobile applications.
 
-    %p.header-description
+    .header-description
       = partial "partials/description"
-    %button.header-linktogallery{ name: "gallery"}
+    %a.header-linktogallery.button{ href: "#gallery"}
       Gallery
 %section.page-section
 %main{role:"main"}
-  %section.page-section
-    %h2 Families
-    %ol
+  %section.page-section-families
+    %ol.families-list#gallery
       - data.library.families.each do |title, family|
-        %li
-          %h3
-            = family["title"]
-          %h6
-            %a{ href: family.repourl}
-              GitHub
-          %p
-            = family["description"]
-          %ul
+        %li.families-list-item
+          %ul.families-list-item-gallery
+            %li.families-list-item-gallery-item.centered-content
+              .centered-content-inner
+                %h3
+                  = family["title"]
+                %h6
+                  %a{ href: family.repourl}
+                    GitHub
+                %p
+                  = family["description"]
             - family.lib.each do |filename|
-              %li
+              %li.families-list-item-gallery-item
                 %img{ src: "assets/components" + family.path + filename}
                 %a{ href: "assets/components" + family.path + filename, download: true}
                   Download
