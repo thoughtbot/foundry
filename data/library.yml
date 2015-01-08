@@ -1,22 +1,9 @@
 families:
   foundrycore:
     title: "Foundry Core"
-    repourl: "https://github.com/thoughtbot/foundry-core.git"
+    repo_url: "https://github.com/thoughtbot/foundry-core.git"
     description: "The first family of Foundry ∞."
     path: "/foundry-core/lib/"
-    lib:
-      - "core-001-a.svg"
-      - "core-002-a.svg"
-      - "core-003-a.svg"
-      - "core-004-a.svg"
-      - "core-005-a.svg"
-      - "core-006-a.svg"
-      - "core-007-a.svg"
-      - "core-008-a.svg"
-      - "core-009-a.svg"
-      - "core-010-a.svg"
-      - "core-011-a.svg"
-      - "core-012-a.svg"
 
   # Not production ready
   #

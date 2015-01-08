@@ -1,3 +1,5 @@
+require "lib/family"
+require "lib/gallery"
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -69,3 +71,6 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+::Middleman::Extensions.register(:gallery, Gallery)
+activate :gallery

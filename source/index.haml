@@ -14,19 +14,19 @@
 %main{role:"main"}
   %section.page-section-families
     %ol.families-list#gallery
-      - data.library.families.each do |title, family|
+      - families.each do |family|
         %li.families-list-item
           %ul.families-list-item-gallery
             %li.families-list-item-gallery-item.centered-content
               .centered-content-inner
                 %h3
-                  = family["title"]
+                  = family.title
                 %h6
-                  %a{ href: family.repourl}
+                  %a{ href: family.repo_url}
                     GitHub
                 %p
-                  = family["description"]
-            - family.lib.each do |filename|
+                  = family.description
+            - family.files.each do |filename|
               %li.families-list-item-gallery-item
                 %img{ src: "assets/components" + family.path + filename}
                 %a{ href: "assets/components" + family.path + filename, download: true}
