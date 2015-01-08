@@ -13,11 +13,11 @@ $base-line-height: 1.5;
 $header-line-height: 1.25;
 
 // Font Families
-$sans-serif: $helvetica, sans-serif;
-$sans-serif-alt: sans-serif;
-$serif: serif;
-$base-font-family: $sans-serif-alt;
-$header-font-family: $sans-serif-alt;
+$sans-serif: "Montserrat", sans-serif;
+$sans-serif-alt: $helvetica, sans-serif;
+$serif: "Merriweather", serif;
+$base-font-family: $sans-serif;
+$header-font-family: $serif;
 
 // ========= Grid Variables =========
 
@@ -33,8 +33,8 @@ $opposite-direction: right;
   $opposite-direction: left;
 }
 
-$row-width: rem(1440);
-$column-gutter: rem(20);
+$row-width: em(1280);
+$column-gutter: em(20);
 $total-columns: 12;
 
 // ========= Media Queries =========
@@ -71,8 +71,10 @@ $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
 // Colors
-$blue: #477DCA;
-$dark-gray: #333;
+$sea: #3fa9f5;
+$foam: #86adbc;
+$gold: #eab111;
+$coal: #414042;
 $medium-gray: #999;
 $light-gray: #DDD;
 $light-red: #FBE3E4;
@@ -83,8 +85,8 @@ $light-green: #E6EFC2;
 $base-background-color: white;
 
 // Font Colors
-$base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-font-color: $coal;
+$base-accent-color: $sea;
 
 // Link Colors
 $base-link-color: $base-accent-color;

@@ -10,21 +10,3 @@
 
   %body{class: page_classes}
     = yield
-
-    %h2 Families
-    %ol
-      - data.library.families.each do |title, family|
-        %li
-          %h3
-            = family["title"]
-          %h6
-            %a{ href: family.repourl}
-              GitHub
-          %p
-            = family["description"]
-          %ul
-            - family.lib.each do |filename|
-              %li
-                %img{ src: "assets/components" + family.path + filename}
-                %a{ href: "assets/components" + family.path + filename, download: true}
-                  Download

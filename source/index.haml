@@ -1,0 +1,27 @@
+%header.page-header
+  .page-header-container
+    %h1.logo
+      Foundry ∞
+    %h2.subtitle
+      = partial "partials/subtitle"
+%section.page-section
+  = partial "partials/description"
+%main{role:"main"}
+  %section.page-section
+    %h2 Families
+    %ol
+      - data.library.families.each do |title, family|
+        %li
+          %h3
+            = family["title"]
+          %h6
+            %a{ href: family.repourl}
+              GitHub
+          %p
+            = family["description"]
+          %ul
+            - family.lib.each do |filename|
+              %li
+                %img{ src: "assets/components" + family.path + filename}
+                %a{ href: "assets/components" + family.path + filename, download: true}
+                  Download

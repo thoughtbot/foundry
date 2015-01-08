@@ -1,0 +1,26 @@
+.page-header {
+  background-color: $foam;
+  min-height: 80vh;
+  color: $base-background-color;
+  position: relative;
+
+  .logo {
+    font-family: $sans-serif;
+    font-weight: 400;
+    font-size: $h3-font-size;
+    line-height: 2;
+  }
+
+  @media #{$small} {
+    .subtitle {
+      margin-top: 4em;
+      font-size: $h1-font-size * 1.5;
+      font-weight: 400;
+    }
+  }
+}
+
+.page-header-container,
+.page-section {
+  @include simple-column;
+}

@@ -99,7 +99,7 @@ $total-columns: 12 !default;
 }
 
 @mixin simple-column() {
-    max-width: ($row-width / 1.5);
+    max-width: $row-width;
     padding-left: $column-gutter;
     padding-right: $column-gutter;
     width: 100%;
