@@ -4,10 +4,11 @@
   border-radius: 0;
   color: white;
   display: inline-block;
+  font-family: $base-font-family;
   font-size: $base-font-size;
   font-weight: bold;
   line-height: 1;
-  padding: 0.75em 1em;
+  padding: 0.75em 1.5em;
   text-decoration: none;
 
   &:hover {
