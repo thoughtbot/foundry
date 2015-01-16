@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px"
-  height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
-  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="83.75837" y1="84.63656" x2="76.21854" y2="77.09672">
-    <stop  offset="0" style="stop-color:#EDC6B6"/>
-    <stop  offset="0.5" style="stop-color:#E4B987"/>
-    <stop  offset="0.52694" style="stop-color:#E4B885"/>
-    <stop  offset="1" style="stop-color:#DDA96E"/>
-  </linearGradient>
-  <circle fill="url(#SVGID_1_)" cx="79.9884" cy="80.86591" r="5.33121"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160px"
+  height="160px" viewBox="0 0 160 160" >
+  <circle fill="#E4B885" cx="79.9884" cy="80.86591" r="5.33121"/>
   <polygon fill="#DFA872" points="60.55947,88.58891 99.41825,88.58891 107.78956,123.24245 79.98882,134.29251 52.18724,123.24245"/>
   <polygon fill="#997F60" points="79.98882,80.86588 99.41825,88.58891 79.98882,96.31112 60.55947,88.58891"/>
   <circle fill="#A9DEF0" cx="79.9884" cy="53.18604" r="38.61307"/>

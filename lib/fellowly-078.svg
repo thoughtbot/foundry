@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px"
-  height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160px"
+  height="160px" viewBox="0 0 160 160" >
   <ellipse fill="#C3C5C7" cx="80.20435" cy="114.25916" rx="60.334" ry="19.2871"/>
   <polyline fill="#C3C5C7" points="19.87034,98.9282 19.87034,114.2592 80.45144,130.5795 140.45433,114.2592 140.45433,98.9282"/>
   <ellipse fill="#E7E6E6" cx="80.20435" cy="98.92822" rx="60.334" ry="19.2871"/>

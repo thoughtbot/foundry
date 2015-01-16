@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px"
-  height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160px"
+  height="160px" viewBox="0 0 160 160" >
   <ellipse fill="#FCEC97" cx="75.24768" cy="100.6841" rx="58.89587" ry="24.59063"/>
   <path fill="#DFA872" d="M45.5323,80.08223l14.65261-9.69878c6.32508,8.37186,25.25349,11.89266,38.51047,8.72785L83.07411,95.88896
     C71.50003,100.90123,53.64521,91.0612,45.5323,80.08223z"/>
