@@ -7,6 +7,7 @@
     %meta{:content => "noindex, nofollow", :name => "robots"}
     %title= current_page.data.title || "Foundry ∞"
     = stylesheet_link_tag "app"
+    = javascript_include_tag  "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
     = javascript_include_tag  "all"
 
   %body{class: page_classes}

@@ -12,6 +12,10 @@
   font-size: $h3-font-size;
   font-weight: 400;
   line-height: 2;
+
+  @media #{$small} {
+    margin-bottom: 7em;
+  }
 }
 
 .header-subtitle {
@@ -19,37 +23,54 @@
   @media #{$small} {
     font-size: $h0-font-size;
     font-weight: 400;
-    margin-top: 4em;
     margin-bottom: 0.25em;
     max-width: 24em;
   }
 }
 
 .subtitle-linktodescription {
+  background: 0;
   color: $base-background-color;
   float: right;
   font-family: $base-font-family;
-  font-size: 0.5em;
+  font-size: 1.25rem;
   line-height: 3.5;
+  padding: 0;
   margin: 0 2em;
 
-  &:after {
-    content: "→";
+  &.more:after,
+  &.less:before {
+    margin: 0 0.125em;
     display: inline-block;
-    margin-left: 0.125em;
     text-decoration: none;
     transition: transform 300ms ease-in-out;
+    outline: none;
+  }
+
+  &.more:after {
+    content: "→";
+  }
+
+  &.less:before {
+    content: "←";
   }
 
   &:hover {
+    background-color: transparent;
     color: shade($base-background-color, 10);
+  }
 
-    &:after {
-      transform: translate(0.3em);
-    }
+  &.more:hover:after {
+    transform: translate(0.3em);
+  }
+
+  &.less:hover:before {
+    transform: translate(-0.3em);
   }
 }
+
 .header-description {
+  display: none;
   max-width: 60em;
 }
 
