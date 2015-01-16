@@ -68,7 +68,7 @@ hr {
   border-left: none;
   border-right: none;
   border-top: none;
-  margin: $base-spacing 0;
+  margin: ($base-spacing * 2) 0;
 }
 
 img,

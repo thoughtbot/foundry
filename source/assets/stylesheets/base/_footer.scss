@@ -1,0 +1,23 @@
+.page-footer {
+  background-color: $thoughtbot-gray;
+  color: $base-background-color;
+  padding: 5em;
+}
+
+.footer-title {
+  font-family: $base-font-family;
+  font-size: $h5-font-size;
+  padding-top: 1em;
+}
+
+.footer-title-link {
+  color: $base-background-color;
+  display: block;
+}
+
+.ralph {
+  float: left;
+  height: 5em;
+  margin-right: 1em;
+  width: 5em;
+}
