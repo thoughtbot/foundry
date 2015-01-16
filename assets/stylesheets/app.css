@@ -124,11 +124,16 @@ cite {
 /* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
 .families-list-item-gallery {
   height: 30vw;
+  margin-bottom: 2px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap; }
+  /* line 8, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  .families-list-item-gallery::-webkit-scrollbar {
+    display: none;
+    visibility: hidden; }
 
-/* line 8, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+/* line 14, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
 .families-list-item-gallery-item {
   display: inline-block;
   margin-bottom: 0;
@@ -138,10 +143,10 @@ cite {
   position: relative;
   text-align: center;
   vertical-align: top; }
-  /* line 18, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  /* line 24, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item-gallery-item:nth-child(2n) {
     background-color: #f4f4f4; }
-  /* line 24, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  /* line 30, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item-gallery-item.centered-content .centered-content-inner {
     position: absolute;
     top: 50%;
@@ -150,14 +155,19 @@ cite {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
-  /* line 30, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  /* line 36, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item-gallery-item img,
-  .families-list-item-gallery-item a {
+  .families-list-item-gallery-item .download-link {
     display: block;
     margin: 0 auto; }
-  /* line 36, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  /* line 42, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item-gallery-item img {
+    max-height: 15em;
     min-width: 100%; }
+  /* line 47, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  .families-list-item-gallery-item .family-description {
+    padding: 0 2em;
+    white-space: normal; }
 
 /* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
 fieldset {
@@ -315,53 +325,71 @@ input[type="submit"] {
   font-size: 1.5em;
   font-weight: 400;
   line-height: 2; }
+  @media only screen and (min-width: 768px) {
+    /* line 10, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+    .header-logo {
+      margin-bottom: 7em; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 17, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 21, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .header-subtitle {
     font-size: 2.5em;
     font-weight: 400;
-    margin-top: 4em;
     margin-bottom: 0.25em;
     max-width: 24em; } }
 
-/* line 28, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 31, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .subtitle-linktodescription {
+  background: 0;
   color: white;
   float: right;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.5em;
+  font-size: 1.25rem;
   line-height: 3.5;
+  padding: 0;
   margin: 0 2em; }
-  /* line 36, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
-  .subtitle-linktodescription:after {
-    content: "→";
+  /* line 41, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  .subtitle-linktodescription.more:after, .subtitle-linktodescription.less:before {
+    margin: 0 0.125em;
     display: inline-block;
-    margin-left: 0.125em;
     text-decoration: none;
     -webkit-transition: -webkit-transform 300ms ease-in-out;
-            transition: transform 300ms ease-in-out; }
-  /* line 44, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+            transition: transform 300ms ease-in-out;
+    outline: none; }
+  /* line 50, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  .subtitle-linktodescription.more:after {
+    content: "→"; }
+  /* line 54, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  .subtitle-linktodescription.less:before {
+    content: "←"; }
+  /* line 58, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription:hover {
+    background-color: transparent;
     color: #e5e5e5; }
-    /* line 47, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
-    .subtitle-linktodescription:hover:after {
-      -webkit-transform: translate(0.3em);
-          -ms-transform: translate(0.3em);
-              transform: translate(0.3em); }
+  /* line 63, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  .subtitle-linktodescription.more:hover:after {
+    -webkit-transform: translate(0.3em);
+        -ms-transform: translate(0.3em);
+            transform: translate(0.3em); }
+  /* line 67, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  .subtitle-linktodescription.less:hover:before {
+    -webkit-transform: translate(-0.3em);
+        -ms-transform: translate(-0.3em);
+            transform: translate(-0.3em); }
 
-/* line 52, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 72, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .header-description {
+  display: none;
   max-width: 60em; }
 
-/* line 56, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 77, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .header-linktogallery {
   margin-top: 0.5em;
   font-size: 1.25em;
   position: relative;
   -webkit-transition: all 200ms ease-in-out;
           transition: all 200ms ease-in-out; }
-  /* line 62, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 83, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .header-linktogallery:before {
     position: absolute;
     top: 0;
@@ -377,10 +405,10 @@ input[type="submit"] {
     display: block;
     -webkit-transition: all 200ms ease-in-out;
             transition: all 200ms ease-in-out; }
-  /* line 76, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 97, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .header-linktogallery:hover {
     background-color: #3fa9f5; }
-    /* line 79, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+    /* line 100, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
     .header-linktogallery:hover:before {
       position: absolute;
       top: 0;
@@ -396,7 +424,7 @@ input[type="submit"] {
       -webkit-transition: border-color 300ms ease, -webkit-transform 300ms ease;
               transition: border-color 300ms ease, transform 300ms ease; }
 
-/* line 92, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 113, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .page-header-container {
   max-width: 80em;
   padding-left: 1.25em;
@@ -405,14 +433,14 @@ input[type="submit"] {
   margin-left: auto;
   margin-right: auto; }
 
-/* line 96, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 117, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .page-navigation {
   background-color: white;
   border-radius: 0 0 3px 3px;
   float: right;
   padding: 0.125em 0.5em;
   position: relative; }
-  /* line 103, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 124, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .page-navigation:before {
     position: absolute;
     top: 0;
@@ -423,7 +451,7 @@ input[type="submit"] {
     border-left: 1em solid transparent;
     content: "";
     display: block; }
-  /* line 110, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 131, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .page-navigation:after {
     position: absolute;
     top: 0;
@@ -435,10 +463,10 @@ input[type="submit"] {
     content: "";
     display: block; }
 
-/* line 118, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 139, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .navigation-list-item-link {
   color: #789ba9;
   font-size: 1.25em; }
-  /* line 122, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 143, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .navigation-list-item-link:hover {
     color: #506770; }

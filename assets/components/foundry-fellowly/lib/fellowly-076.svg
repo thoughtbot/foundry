@@ -1,0 +1,91 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160px"
+  height="160px" viewBox="0 0 160 160" >
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#D0EBEF" d="M73.09161,27.33342
+    c3.92191-7.81698,23.92144-23.59931,18.08247-1.5034c-5.83589,22.09284-5.31632,21.83063-3.8493,23.06398
+    c0,0,1.51448,0.70594-1.78049,0.56541c-3.29262-0.14214-9.75934,0.03784-9.75934,0.03784L73.09161,27.33342z"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#D0EBEF" stroke-width="0.89932" d="M70.12588,50.56954
+    c-3.09753,0.20691-8.31197,0.32843-3.25786,1.05806c5.055,0.73116,13.07412,1.57285,19.37267,0.98537
+    c6.297-0.58425,10.96665,1.6787,11.08583,0.34274c0.443-4.93178,0.09557-3.49314-10.00174-3.48999
+    C73.90492,49.47203,73.0853,50.36902,70.12588,50.56954z"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#D0EBEF" d="M68.85469,53.58896
+    c-0.29221,5.14022-77.6564,91.67313,10.71075,93.74033c88.37031,2.06558,14.57906-74.16003,14.67932-93.47981"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="0.93801" stroke-linejoin="round" points="
+  52.05448,127.78844 62.06577,124.37267 68.44565,132.1675 67.4002,137.03137 57.38269,140.44722 51.00435,132.65077"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="61.01563" y1="129.23184" x2="62.06577" y2="124.37267"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="51.00435" y1="132.65077" x2="61.01563" y2="129.23184"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="67.4002" y1="137.03137" x2="61.01563" y2="129.23184"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="1.55648" stroke-linejoin="round" points="
+  56.38625,129.34706 39.60108,122.09865 43.78908,107.52913 52.26931,103.78801 69.0544,111.03966 64.86639,125.60918"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="48.08131" y1="118.3623" x2="39.60108" y2="122.09865"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="64.86639" y1="125.60918" x2="48.08131" y2="118.3623"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="52.26931" y1="103.78801" x2="48.08131" y2="118.3623"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="1.55648" stroke-linejoin="round" points="
+  82.09141,137.77046 65.30624,130.52357 69.49425,115.95244 77.97447,112.2114 94.75956,119.46297 90.57317,134.03256"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="73.78647" y1="126.78568" x2="65.30624" y2="130.52357"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="90.57317" y1="134.03256" x2="73.78647" y2="126.78568"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="77.97447" y1="112.2114" x2="73.78647" y2="126.78568"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="0.93801" stroke-linejoin="round" points="
+  78.13158,91.51774 69.0544,86.08377 70.87758,76.17913 75.26852,73.83404 84.34562,79.26801 82.51856,89.1758"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="73.43904" y1="83.74183" x2="69.0544" y2="86.08377"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="82.51856" y1="89.1758" x2="73.43904" y2="83.74183"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="75.26852" y1="73.83404" x2="73.43904" y2="83.74183"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="0.93801" stroke-linejoin="round" points="
+  110.0824,94.13451 110.24427,104.71185 100.86154,108.37398 96.5567,105.87881 96.39799,95.29678 105.78071,91.63619"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="105.94411" y1="102.21353" x2="110.24427" y2="104.71185"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="105.78071" y1="91.63619" x2="105.94411" y2="102.21353"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="96.5567" y1="105.87881" x2="105.94411" y2="102.21353"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="0.93801" stroke-linejoin="round" points="
+  111.46185,124.96331 111.62445,135.53905 102.24172,139.20279 97.93535,136.7077 97.77898,126.12875 107.16009,122.465"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="107.32276" y1="133.04242" x2="111.62445" y2="135.53905"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="107.16009" y1="122.465" x2="107.32276" y2="133.04242"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.14237" x1="97.93535" y1="136.7077" x2="107.32276" y2="133.04242"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="1.55648" stroke-linejoin="round" points="
+  61.29353,88.95159 79.56544,88.30573 82.02664,103.26528 75.96654,110.2785 57.69616,110.92274 55.23343,95.96156"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="73.50696" y1="95.3157" x2="79.56544" y2="88.30573"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="55.23343" y1="95.96156" x2="73.50696" y2="95.3157"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="75.96654" y1="110.2785" x2="73.50696" y2="95.3157"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="1.55648" stroke-linejoin="round" points="
+  81.98395,107.58435 85.97459,125.42442 71.72323,130.59465 63.71681,125.925 59.72536,108.08501 73.97752,102.91632"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="77.96809" y1="120.75631" x2="85.97459" y2="125.42442"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="73.97752" y1="102.91632" x2="77.96809" y2="120.75631"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="63.71681" y1="125.925" x2="77.96809" y2="120.75631"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="1.55648" stroke-linejoin="round" points="
+  77.51967,102.10462 88.59127,87.55556 101.72693,95.12149 103.31951,104.25073 92.24871,118.80287 79.11225,111.23387"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="90.17836" y1="96.68488" x2="88.59127" y2="87.55556"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="79.11225" y1="111.23387" x2="90.17836" y2="96.68488"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="103.31951" y1="104.25073" x2="90.17836" y2="96.68488"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="1.55648" stroke-linejoin="round" points="
+  98.08929,125.0107 89.06193,109.11622 101.18132,100.00427 110.20238,102.12985 119.23137,118.0291 107.11198,127.13627"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="98.08057" y1="111.24017" x2="89.06193" y2="109.11622"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="107.11198" y1="127.13627" x2="98.08057" y2="111.24017"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="110.20238" y1="102.12985" x2="98.08057" y2="111.24017"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="1.55648" stroke-linejoin="round" points="
+  78.37559,123.89102 85.79065,107.1817 100.31828,111.51338 103.97491,120.03153 96.55508,136.7424 82.02818,132.40909"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="89.44324" y1="115.69662" x2="85.79065" y2="107.1817"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="82.02818" y1="132.40909" x2="89.44324" y2="115.69662"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="103.97491" y1="120.03153" x2="89.44324" y2="115.69662"/>
+  <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A4DBDF" stroke="#D0EBEF" stroke-width="1.55648" stroke-linejoin="round" points="
+  91.4417,96.52059 74.65654,89.27371 78.84616,74.70419 87.32478,70.96315 104.11148,78.21472 99.92194,92.78586"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="83.13677" y1="85.53898" x2="74.65654" y2="89.27371"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="99.92194" y1="92.78586" x2="83.13677" y2="85.53898"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D0EBEF" stroke-width="1.8956" x1="87.32478" y1="70.96315" x2="83.13677" y2="85.53898"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#D0EBEF" stroke="#FFFFFF" stroke-width="1.41788" d="M73.43904,54.69755
+    c0.36869,5.76555-12.11867,39.72116-11.37328,44.91668c0.74378,5.19553,12.19128-26.81456,14.46926-32.149
+    c2.28033-5.33451,5.48289-6.4668,5.98354-1.4544"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#D0EBEF" stroke="#FFFFFF" stroke-width="1.41788" d="M89.06193,68.27378
+    c4.14135,19.56129,9.35661,16.65086,5.69763,4.03955"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#D0EBEF" stroke-width="1.41788" d="M67.4002,49.46572
+    c-3.7805,0-3.17336,5.38974,0,5.22706c3.17021-0.16106,26.77349,0.16268,28.99779-1.10382
+    C100.29387,51.37178,81.84901,49.46572,67.4002,49.46572z"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#D0EBEF" d="M70.68732,49.49725
+    c-1.19308-4.98862-6.99186-14.14948-14.21505-18.89336c-7.22238-4.74064,19.28655-5.17176,19.49426-1.07698
+    c0.20925,4.0964,3.04069,18.96912,2.00155,19.9388"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#D0EBEF" d="M93.56963,49.46572
+    c-0.7998-5.86985,1.79084-16.48989,7.68042-22.51603c5.88958-6.02461-4.05856-2.70352-10.07597-1.51602l-4.49201,7.3811
+    l-2.15404,13.04089l1.50817,3.88003L93.56963,49.46572z"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="1.29332" d="M72.36594,26.72702
+    c0,0,7.80671,3.85319,6.53075,16.81201c0,0-3.6124,1.11174-1.79238,1.30758c1.82003,0.19736,4.37826-0.63956,3.19787,0.29528
+    c-1.18128,0.93492-1.39603,1.41495-1.39603,1.41495v2.71144"/>
+  <line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="1.29332" x1="92.08442" y1="24.92203" x2="87.32478" y2="49.26828"/>
+
+</svg>
