@@ -28,15 +28,17 @@ title: Foundry ∞
           %ul.families-list-item-gallery
             %li.families-list-item-gallery-item.centered-content
               .centered-content-inner
-                %h3
+                %h3.family-title
                   = family.title
-                %h6
-                  %a{ href: family.repo_url}
+                %h6.family-links
+                  %a{ href: family.repo_url }
                     GitHub
-                %p
+                  %a{ href: family.author_url }
+                    = family.author_handle
+                %p.family-description
                   = family.description
             - family.files.each do |filename|
               %li.families-list-item-gallery-item
-                %img{ src: "assets/components" + family.path + filename}
-                %a{ href: "assets/components" + family.path + filename, download: true}
+                %img{ src: "assets/components" + family.path + filename }
+                %a{ href: "assets/components" + family.path + filename, download: true, class: "download-link" }
                   Download

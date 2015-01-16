@@ -4,10 +4,12 @@ families:
     repo_url: "https://github.com/thoughtbot/foundry-core.git"
     description: "The first family of Foundry ∞."
     path: "/foundry-core/lib/"
-
-  # Not production ready
-  #
-  # foundry-fellowly:
-  #   title: "Fellowly"
-  #   repo-url: "https://github.com/thoughtbot/finite-fellowly.git"
-  #   description: "A fun and easy mix of people and and heath centric things."
+    author_handle: "@whmii"
+    author_url: "https://twitter.com/whmii"
+  foundry-fellowly:
+    title: "Fellowly"
+    repo_url: "https://github.com/thoughtbot/finite-fellowly.git"
+    description: "The second family of Foundry ∞, built for health and happiness."
+    path: "/foundry-fellowly/lib/"
+    author_handle: "@whmii"
+    author_url: "https://twitter.com/whmii"

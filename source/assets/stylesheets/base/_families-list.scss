@@ -1,8 +1,14 @@
 .families-list-item-gallery {
   height: 30vw;
+  margin-bottom: 2px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+
+  &::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 .families-list-item-gallery-item {
@@ -28,12 +34,18 @@
   }
 
   img,
-  a {
+  .download-link {
     display: block;
     margin: 0 auto;
   }
 
   img {
+    max-height: 15em;
     min-width: 100%;
+  }
+
+  .family-description {
+    padding: 0 2em;
+    white-space: normal;
   }
 }
