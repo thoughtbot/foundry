@@ -122,32 +122,49 @@ cite {
     content: "\2014 \00A0"; }
 
 /* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+.families-list-item {
+  border-bottom: 1px solid #DDD;
+  position: relative; }
+  /* line 5, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  .families-list-item::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), white);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    content: "";
+    display: block;
+    width: 3em; }
+
+/* line 14, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
 .families-list-item-gallery {
-  height: 30vw;
-  margin-bottom: 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap; }
-  /* line 8, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  overflow-y: hidden; }
+  /* line 20, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item-gallery::-webkit-scrollbar {
     display: none;
     visibility: hidden; }
 
-/* line 14, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+/* line 26, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
 .families-list-item-gallery-item {
-  display: inline-block;
+  border-left: 1px solid #DDD;
   margin-bottom: 0;
-  min-height: 100%;
-  min-width: 30vw;
+  min-width: 20em;
   padding: 5em 6em;
   position: relative;
-  text-align: center;
-  vertical-align: top; }
-  /* line 24, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-  .families-list-item-gallery-item:nth-child(2n) {
-    background-color: #f9f9f9; }
-  /* line 30, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-  .families-list-item-gallery-item.centered-content .centered-content-inner {
+  text-align: center; }
+  /* line 34, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  .families-list-item-gallery-item .centered-content-inner {
     position: absolute;
     top: 50%;
     right: 0;
@@ -155,16 +172,12 @@ cite {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
-  /* line 36, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  /* line 39, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item-gallery-item img,
   .families-list-item-gallery-item .download-link {
     display: block;
     margin: 0 auto; }
-  /* line 42, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-  .families-list-item-gallery-item img {
-    max-height: 15em;
-    min-width: 100%; }
-  /* line 47, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
+  /* line 45, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item-gallery-item .family-description {
     padding: 0 2em;
     white-space: normal; }
