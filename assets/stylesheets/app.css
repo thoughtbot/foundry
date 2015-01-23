@@ -98,7 +98,7 @@ hr {
   border-left: none;
   border-right: none;
   border-top: none;
-  margin: 1.5em 0; }
+  margin: 3em 0; }
 
 /* line 74, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 img,
@@ -145,7 +145,7 @@ cite {
   vertical-align: top; }
   /* line 24, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item-gallery-item:nth-child(2n) {
-    background-color: #f4f4f4; }
+    background-color: #f9f9f9; }
   /* line 30, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item-gallery-item.centered-content .centered-content-inner {
     position: absolute;
@@ -309,6 +309,30 @@ input[type="submit"] {
 /* line 4, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_grids.scss */
 *, *:before, *:after {
   box-sizing: border-box; }
+
+/* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_footer.scss */
+.page-footer {
+  background-color: rgba(46, 48, 58, 0.96);
+  color: white;
+  padding: 5em; }
+
+/* line 7, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_footer.scss */
+.footer-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125em;
+  padding-top: 1em; }
+
+/* line 13, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_footer.scss */
+.footer-title-link {
+  color: white;
+  display: block; }
+
+/* line 18, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_footer.scss */
+.ralph {
+  float: left;
+  height: 5em;
+  margin-right: 1em;
+  width: 5em; }
 
 /* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .page-header {
