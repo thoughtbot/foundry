@@ -11,11 +11,14 @@ title: Foundry ∞
       %h2.header-subtitle{ data: { toggle_content: "less" } }
         Providing a new generation of vector assets and infinite possibility for the interactive web and mobile applications.
         %button.subtitle-linktodescription.more{ data: { toggle: "more" } }
-          more…
+          more
       .header-description{ data: { toggle_content: "more" } }
-        = partial "partials/description"
-        %button.subtitle-linktodescription.less{ data: { toggle: "less" } }
-          less…
+        %p
+          SVGs are amazing. Finding new and interactive ways to share visual information, art, and fun is awesome and SVGs let us do this in ways that aren’t possible in raster art.
+        %p
+          Foundry is a new way of utilizing scalable vector graphics, giving designers the opportunity to contribute and collaborate on families of spot vector illustrations and icons and make them available for download/purchase. No more hunting around google for ten minutes to find just the right icon or wasting time recreating an iPhone when you know it’s already been done a thousand times.
+          %button.subtitle-linktodescription.less{ data: { toggle: "less" } }
+            less
     %nav.header-linkto
       %a.header-linktogallery.button{ href: "#gallery"}
         Gallery
@@ -31,7 +34,7 @@ title: Foundry ∞
                 %h3.family-title
                   = family.title
                 %h6.family-links
-                  %a{ href: family.repo_url }
+                  %a{ href: family.repo_url }<
                     GitHub
                   %a{ href: family.author_url }
                     = family.author_handle

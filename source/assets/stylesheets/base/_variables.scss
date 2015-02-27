@@ -76,10 +76,10 @@ $foam: #86adbc;
 $gold: #eab111;
 $coal: #414042;
 $medium-gray: #999;
-$light-gray: #DDD;
-$light-red: #FBE3E4;
-$light-yellow: #FFF6BF;
-$light-green: #E6EFC2;
+$light-gray: #d8d8d8;
+$light-red: #fbe3e4;
+$light-yellow: #fff6bf;
+$light-green: #e6efc2;
 
 $thoughtbot-gray: rgba(46, 48, 58, 0.96);
 
@@ -88,13 +88,13 @@ $base-background-color: white;
 
 // Font Colors
 $base-font-color: $coal;
-$base-accent-color: $sea;
+$base-accent-color: $gold;
 
 // Link Colors
-$base-link-color: $base-accent-color;
-$hover-link-color: darken($base-accent-color, 15);
-$base-button-color: $base-link-color;
-$hover-button-color: $hover-link-color;
+$base-link-color: $base-font-color;
+$hover-link-color: $base-accent-color;
+$base-button-color: $base-accent-color;
+$hover-button-color: darken($base-accent-color, 15);
 
 // Flash Colors
 $alert-color: $light-yellow;
@@ -117,4 +117,4 @@ $form-font-size: $base-font-size;
 $form-font-family: $base-font-family;
 
 // Page Header
-$page-header-color: $foam;
+$page-header-color: $light-gray;

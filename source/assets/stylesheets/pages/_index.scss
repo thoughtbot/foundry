@@ -1,9 +1,9 @@
 .page-header {
   background-color: $page-header-color;
   border-top: em(2) solid $base-background-color;
-  color: $base-background-color;
+  color: $base-font-color;
   min-height: 80vh;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   position: relative;
 }
 
@@ -30,13 +30,13 @@
 
 .subtitle-linktodescription {
   background: 0;
-  color: $base-background-color;
-  float: right;
+  color: $base-font-color;
   font-family: $base-font-family;
-  font-size: 1.25rem;
-  line-height: 3.5;
+  font-size: 1rem;
   padding: 0;
-  margin: 0 2em;
+  margin: 0 1em;
+  display: inline;
+  vertical-align: baseline;
 
   &.more:after,
   &.less:before {
@@ -57,15 +57,15 @@
 
   &:hover {
     background-color: transparent;
-    color: shade($base-background-color, 10);
+    color: $base-font-color;
   }
 
   &.more:hover:after {
-    transform: translate(0.3em);
+    transform: translate(0.5em);
   }
 
   &.less:hover:before {
-    transform: translate(-0.3em);
+    transform: translate(-0.5em);
   }
 }
 
@@ -82,8 +82,8 @@
 
   &:before {
     @include position(absolute, 0 0 null null);
-    border-bottom-color: tint($base-button-color, 15);
-    border-left-color: tint($base-button-color, 15);
+    border-bottom-color: tint($base-button-color, 20);
+    border-left-color: tint($base-button-color, 20);
     border-right-color: $page-header-color;
     border-style: solid;
     border-top-color: $page-header-color;
@@ -115,32 +115,19 @@
 }
 
 .page-navigation {
-  background-color: $base-background-color;
   border-radius: 0 0 $base-border-radius $base-border-radius;
   float: right;
   padding: 0.125em 0.5em;
   position: relative;
-
-  &:before {
-    @include position(absolute, 0 100% null null);
-    @include triangle(1em 2em, $base-background-color, up-right);
-    content: "";
-    display: block;
-  }
-
-  &:after {
-    @include position(absolute, 0 null null 100%);
-    @include triangle(1em 2em, $base-background-color, up-left);
-    content: "";
-    display: block;
-  }
 }
 
 .navigation-list-item-link {
-  color: shade($page-header-color, 10);
+  color: $base-font-color;
   font-size: $h4-font-size;
+  text-decoration: none;
 
   &:hover {
-    color: shade($page-header-color, 40);
+    text-decoration: underline;
+    color: $base-font-color
   }
 }
