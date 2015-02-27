@@ -5,7 +5,7 @@ button,
 .button,
 input[type="submit"] {
   -webkit-font-smoothing: antialiased;
-  background-color: #3fa9f5;
+  background-color: #eab111;
   border-radius: 0;
   color: white;
   display: inline-block;
@@ -19,7 +19,7 @@ input[type="submit"] {
   button:hover,
   .button:hover,
   input[type="submit"]:hover {
-    background-color: #0b85dc;
+    background-color: #a37b0c;
     color: white; }
   /* line 19, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/extends/_button.scss */
   button:disabled,
@@ -82,19 +82,19 @@ p {
 a {
   -webkit-transition: color 0.1s linear;
           transition: color 0.1s linear;
-  color: #3fa9f5;
-  text-decoration: none; }
+  color: #414042;
+  text-decoration: underline; }
   /* line 56, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
   a:hover {
-    color: #0b85dc; }
+    color: #eab111; }
   /* line 60, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
   a:active, a:focus {
-    color: #0b85dc;
+    color: #eab111;
     outline: none; }
 
 /* line 66, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 hr {
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #d8d8d8;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -108,7 +108,7 @@ picture {
 
 /* line 80, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 blockquote {
-  border-left: 2px solid #DDD;
+  border-left: 2px solid #d8d8d8;
   color: #676669;
   margin: 1.5em 0;
   padding-left: 0.75em; }
@@ -123,7 +123,7 @@ cite {
 
 /* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
 .families-list-item {
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #d8d8d8;
   position: relative; }
   /* line 5, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
   .families-list-item::after {
@@ -157,7 +157,7 @@ cite {
 
 /* line 26, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
 .families-list-item-gallery-item {
-  border-left: 1px solid #DDD;
+  border-left: 1px solid #d8d8d8;
   margin-bottom: 0;
   min-width: 20em;
   padding: 5em 6em;
@@ -184,8 +184,8 @@ cite {
 
 /* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
 fieldset {
-  background: #f7f7f7;
-  border: 1px solid #DDD;
+  background: #f2f2f2;
+  border: 1px solid #d8d8d8;
   margin: 0 0 0.75em 0;
   padding: 1.5em; }
 
@@ -217,7 +217,7 @@ select[multiple=multiple] {
           transition: border-color;
   background-color: white;
   border-radius: 3px;
-  border: 1px solid #DDD;
+  border: 1px solid #d8d8d8;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
@@ -228,13 +228,13 @@ select[multiple=multiple] {
   textarea:hover,
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
   select[multiple=multiple]:hover {
-    border-color: #c4c4c4; }
+    border-color: #bfbfbf; }
   /* line 48, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
   textarea:focus,
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   select[multiple=multiple]:focus {
-    border-color: #3fa9f5;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(39, 158, 244, 0.7);
+    border-color: #eab111;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(210, 159, 15, 0.7);
     outline: none; }
 
 /* line 55, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
@@ -271,14 +271,14 @@ table {
 
 /* line 8, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_tables.scss */
 th {
-  border-bottom: 1px solid #b7b7b7;
+  border-bottom: 1px solid #b2b2b2;
   font-weight: bold;
   padding: 0.75em 0;
   text-align: left; }
 
 /* line 15, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_tables.scss */
 td {
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #d8d8d8;
   padding: 0.75em 0; }
 
 /* line 20, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_tables.scss */
@@ -349,11 +349,11 @@ input[type="submit"] {
 
 /* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .page-header {
-  background-color: #86adbc;
+  background-color: #d8d8d8;
   border-top: 0.125em solid white;
-  color: white;
+  color: #414042;
   min-height: 80vh;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   position: relative; }
 
 /* line 10, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
@@ -378,13 +378,13 @@ input[type="submit"] {
 /* line 31, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .subtitle-linktodescription {
   background: 0;
-  color: white;
-  float: right;
+  color: #414042;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
-  line-height: 3.5;
+  font-size: 1rem;
   padding: 0;
-  margin: 0 2em; }
+  margin: 0 1em;
+  display: inline;
+  vertical-align: baseline; }
   /* line 41, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription.more:after, .subtitle-linktodescription.less:before {
     margin: 0 0.125em;
@@ -402,17 +402,17 @@ input[type="submit"] {
   /* line 58, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription:hover {
     background-color: transparent;
-    color: #e5e5e5; }
+    color: #414042; }
   /* line 63, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription.more:hover:after {
-    -webkit-transform: translate(0.3em);
-        -ms-transform: translate(0.3em);
-            transform: translate(0.3em); }
+    -webkit-transform: translate(0.5em);
+        -ms-transform: translate(0.5em);
+            transform: translate(0.5em); }
   /* line 67, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription.less:hover:before {
-    -webkit-transform: translate(-0.3em);
-        -ms-transform: translate(-0.3em);
-            transform: translate(-0.3em); }
+    -webkit-transform: translate(-0.5em);
+        -ms-transform: translate(-0.5em);
+            transform: translate(-0.5em); }
 
 /* line 72, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .header-description {
@@ -431,11 +431,11 @@ input[type="submit"] {
     position: absolute;
     top: 0;
     right: 0;
-    border-bottom-color: #5bb5f6;
-    border-left-color: #5bb5f6;
-    border-right-color: #86adbc;
+    border-bottom-color: #eec040;
+    border-left-color: #eec040;
+    border-right-color: #d8d8d8;
     border-style: solid;
-    border-top-color: #86adbc;
+    border-top-color: #d8d8d8;
     border-width: 0.4em;
     box-shadow: -0.025em 0.075em 0.065em rgba(0, 0, 0, 0.065);
     content: "";
@@ -444,14 +444,14 @@ input[type="submit"] {
             transition: all 200ms ease-in-out; }
   /* line 97, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .header-linktogallery:hover {
-    background-color: #3fa9f5; }
+    background-color: #eab111; }
     /* line 100, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
     .header-linktogallery:hover:before {
       position: absolute;
       top: 0;
       right: 0;
-      border-bottom-color: #65baf7;
-      border-left-color: #65baf7;
+      border-bottom-color: #eec040;
+      border-left-color: #eec040;
       -webkit-transform-origin: top right;
           -ms-transform-origin: top right;
               transform-origin: top right;
@@ -472,38 +472,17 @@ input[type="submit"] {
 
 /* line 117, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .page-navigation {
-  background-color: white;
   border-radius: 0 0 3px 3px;
   float: right;
   padding: 0.125em 0.5em;
   position: relative; }
-  /* line 124, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
-  .page-navigation:before {
-    position: absolute;
-    top: 0;
-    right: 100%;
-    height: 0;
-    width: 0;
-    border-top: 2em solid white;
-    border-left: 1em solid transparent;
-    content: "";
-    display: block; }
-  /* line 131, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
-  .page-navigation:after {
-    position: absolute;
-    top: 0;
-    left: 100%;
-    height: 0;
-    width: 0;
-    border-top: 2em solid white;
-    border-right: 1em solid transparent;
-    content: "";
-    display: block; }
 
-/* line 139, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 124, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .navigation-list-item-link {
-  color: #789ba9;
-  font-size: 1.25em; }
-  /* line 143, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  color: #414042;
+  font-size: 1.25em;
+  text-decoration: none; }
+  /* line 129, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .navigation-list-item-link:hover {
-    color: #506770; }
+    text-decoration: underline;
+    color: #414042; }
