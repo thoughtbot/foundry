@@ -35,6 +35,4 @@
   <rect x="-138.2" y="391" fill="#191919" width="0.5" height="2"/>
   <rect x="-110" y="385" fill="#BBBBBB" width="2" height="59"/>
   <circle fill="#191919" cx="-138" cy="403" r="1"/>
-  <path fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" d="M-138,430c0,13.3-10.7,24-24,24s-26-10.7-26-24"/>
-  <path fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" d="M-138,430c0,13.3-10.7,24-24,24s-22-10.7-22-24"/>
 </svg>
