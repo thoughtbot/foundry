@@ -1,0 +1,21 @@
+{
+  "name": "Foundry Core",
+  "version": "0.0.8",
+  "homepage": "http://thoughtbot.github.io/foundry",
+  "authors": [
+    "Will H McMahan <will@thoughtbot.com>"
+  ],
+  "description": "The first family of Foundry ∞. This library is created to be a set of core imagery for use by thoughtbot on open-source and client projects.",
+  "main": "gulpfile.js",
+  "keywords": [
+    "svg"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

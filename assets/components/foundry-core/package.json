@@ -1,0 +1,27 @@
+{
+  "name": "foundry-core",
+  "version": "0.0.8",
+  "description": "The first family of Foundry ∞. This library is created to be a set of core imagery for use by thoughtbot on open-source and client projects.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-svgmin": "^1.1.1",
+    "gulp-svgo": "^0.1.1"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thoughtbot/foundry-core.git"
+  },
+  "keywords": [
+    "svg",
+    "illustration",
+    "design"
+  ],
+  "author": "Will McMahan @whmii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoughtbot/foundry-core/issues"
+  },
+  "homepage": "https://github.com/thoughtbot/foundry-core"
+}

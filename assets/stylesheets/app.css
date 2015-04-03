@@ -91,8 +91,11 @@ a {
   a:active, a:focus {
     color: #eab111;
     outline: none; }
+  /* line 65, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
+  a.thoughtbot:hover {
+    color: #c52d2f; }
 
-/* line 66, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
+/* line 70, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 hr {
   border-bottom: 1px solid #d8d8d8;
   border-left: none;
@@ -100,87 +103,26 @@ hr {
   border-top: none;
   margin: 3em 0; }
 
-/* line 74, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
+/* line 78, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 img,
 picture {
   margin: 0;
   max-width: 100%; }
 
-/* line 80, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
+/* line 84, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 blockquote {
   border-left: 2px solid #d8d8d8;
   color: #676669;
   margin: 1.5em 0;
   padding-left: 0.75em; }
 
-/* line 87, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
+/* line 91, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 cite {
   color: #817f83;
   font-style: italic; }
-  /* line 91, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
+  /* line 95, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
   cite:before {
     content: "\2014 \00A0"; }
-
-/* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-.families-list-item {
-  border-bottom: 1px solid #d8d8d8;
-  position: relative; }
-  /* line 5, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-  .families-list-item::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), white);
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-    content: "";
-    display: block;
-    width: 3em; }
-
-/* line 14, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-.families-list-item-gallery {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  overflow-x: scroll;
-  overflow-y: hidden; }
-  /* line 20, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-  .families-list-item-gallery::-webkit-scrollbar {
-    display: none;
-    visibility: hidden; }
-
-/* line 26, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-.families-list-item-gallery-item {
-  border-left: 1px solid #d8d8d8;
-  margin-bottom: 0;
-  min-width: 20em;
-  padding: 5em 6em;
-  position: relative;
-  text-align: center; }
-  /* line 34, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-  .families-list-item-gallery-item .centered-content-inner {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%); }
-  /* line 39, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-  .families-list-item-gallery-item img,
-  .families-list-item-gallery-item .download-link {
-    display: block;
-    margin: 0 auto; }
-  /* line 45, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_families-list.scss */
-  .families-list-item-gallery-item .family-description {
-    padding: 0 2em;
-    white-space: normal; }
 
 /* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
 fieldset {
@@ -323,24 +265,100 @@ input[type="submit"] {
 *, *:before, *:after {
   box-sizing: border-box; }
 
-/* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_footer.scss */
+/* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+.families-list-item {
+  border-bottom: 1px solid #d8d8d8;
+  position: relative; }
+
+/* line 6, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+.families-list-item-gallery {
+  border-top: 1px solid #d8d8d8; }
+  /* line 15, /Users/whmii/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.0.2/app/assets/stylesheets/addons/_clearfix.scss */
+  .families-list-item-gallery:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 11, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+.family-header {
+  max-width: 80em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+  padding-top: 2.5em;
+  width: 100%; }
+  /* line 15, /Users/whmii/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.0.2/app/assets/stylesheets/addons/_clearfix.scss */
+  .family-header:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 19, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+.families-list-item-gallery-item {
+  border-bottom: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8;
+  float: left;
+  margin-bottom: 0;
+  padding: 3em 2em;
+  position: relative;
+  text-align: center;
+  width: 50%; }
+  @media only screen and (min-width: 768px) {
+    /* line 19, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+    .families-list-item-gallery-item {
+      padding: 3em 4em;
+      width: 33.33333%; } }
+  @media only screen and (min-width: 1280px) {
+    /* line 19, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+    .families-list-item-gallery-item {
+      width: 25%; } }
+  /* line 38, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+  .families-list-item-gallery-item .centered-content-inner {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  /* line 43, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+  .families-list-item-gallery-item img,
+  .families-list-item-gallery-item .download-link {
+    display: block;
+    margin: 0 auto;
+    width: 100%; }
+
+/* line 50, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+.family-title,
+.family-links,
+.family-description {
+  display: inline; }
+
+/* line 56, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
+.family-description {
+  display: block; }
+
+/* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_footer.scss */
 .page-footer {
   background-color: rgba(46, 48, 58, 0.96);
   color: white;
   padding: 5em; }
 
-/* line 7, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_footer.scss */
+/* line 7, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_footer.scss */
 .footer-title {
   font-family: "Montserrat", sans-serif;
   font-size: 1.125em;
   padding-top: 1em; }
 
-/* line 13, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_footer.scss */
+/* line 13, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_footer.scss */
 .footer-title-link {
   color: white;
   display: block; }
 
-/* line 18, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_footer.scss */
+/* line 18, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_footer.scss */
 .ralph {
   float: left;
   height: 5em;
@@ -379,54 +397,55 @@ input[type="submit"] {
 .subtitle-linktodescription {
   background: 0;
   color: #414042;
+  display: inline;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  padding: 0;
   margin: 0 1em;
-  display: inline;
+  outline: none;
+  padding: 0;
   vertical-align: baseline; }
-  /* line 41, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
-  .subtitle-linktodescription.more:after, .subtitle-linktodescription.less:before {
-    margin: 0 0.125em;
+  /* line 42, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  .subtitle-linktodescription.more::after, .subtitle-linktodescription.less::before {
     display: inline-block;
+    margin: 0 0.125em;
+    outline: none;
     text-decoration: none;
     -webkit-transition: -webkit-transform 300ms ease-in-out;
-            transition: transform 300ms ease-in-out;
-    outline: none; }
-  /* line 50, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
-  .subtitle-linktodescription.more:after {
+            transition: transform 300ms ease-in-out; }
+  /* line 51, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  .subtitle-linktodescription.more::after {
     content: "→"; }
-  /* line 54, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
-  .subtitle-linktodescription.less:before {
+  /* line 55, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  .subtitle-linktodescription.less::before {
     content: "←"; }
-  /* line 58, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 59, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription:hover {
     background-color: transparent;
     color: #414042; }
-  /* line 63, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 64, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription.more:hover:after {
     -webkit-transform: translate(0.5em);
         -ms-transform: translate(0.5em);
             transform: translate(0.5em); }
-  /* line 67, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 68, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription.less:hover:before {
     -webkit-transform: translate(-0.5em);
         -ms-transform: translate(-0.5em);
             transform: translate(-0.5em); }
 
-/* line 72, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 73, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .header-description {
   display: none;
   max-width: 60em; }
 
-/* line 77, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 78, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .header-linktogallery {
-  margin-top: 0.5em;
   font-size: 1.25em;
+  margin-top: 0.5em;
   position: relative;
   -webkit-transition: all 200ms ease-in-out;
           transition: all 200ms ease-in-out; }
-  /* line 83, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 84, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .header-linktogallery:before {
     position: absolute;
     top: 0;
@@ -442,10 +461,10 @@ input[type="submit"] {
     display: block;
     -webkit-transition: all 200ms ease-in-out;
             transition: all 200ms ease-in-out; }
-  /* line 97, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 98, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .header-linktogallery:hover {
     background-color: #eab111; }
-    /* line 100, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+    /* line 101, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
     .header-linktogallery:hover:before {
       position: absolute;
       top: 0;
@@ -461,7 +480,7 @@ input[type="submit"] {
       -webkit-transition: border-color 300ms ease, -webkit-transform 300ms ease;
               transition: border-color 300ms ease, transform 300ms ease; }
 
-/* line 113, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 114, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .page-header-container {
   max-width: 80em;
   padding-left: 1.25em;
@@ -470,19 +489,19 @@ input[type="submit"] {
   margin-left: auto;
   margin-right: auto; }
 
-/* line 117, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 118, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .page-navigation {
   border-radius: 0 0 3px 3px;
   float: right;
   padding: 0.125em 0.5em;
   position: relative; }
 
-/* line 124, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+/* line 125, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .navigation-list-item-link {
   color: #414042;
   font-size: 1.25em;
   text-decoration: none; }
-  /* line 129, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
+  /* line 130, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .navigation-list-item-link:hover {
-    text-decoration: underline;
-    color: #414042; }
+    color: #414042;
+    text-decoration: underline; }
