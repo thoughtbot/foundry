@@ -1,0 +1,22 @@
+{
+  "name": "Foundry",
+  "version": "0.0.8",
+  "description": "Providing a new generation of vector assets and infinite possibility for the interactive web and mobile applications",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thoughtbot/finite.git"
+  },
+  "keywords": [
+    "svg",
+    "illustration",
+    "love"
+  ],
+  "authors": [
+    "Will H McMahan <will@thoughtbot.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thoughtbot/finite/issues"
+  },
+  "homepage": "https://thoughtbot.github.io/finite"
+}
