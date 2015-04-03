@@ -1,5 +1,4 @@
 .families-list-item {
-  border-bottom: $base-border;
   position: relative;
 }
 
@@ -41,12 +40,48 @@
   }
 
   img,
-  .download-link {
+  .download {
     display: block;
     margin: 0 auto;
     width: 100%;
   }
+
+  .download-link {
+    margin-top: 0.5em;
+    position: relative;
+    transition: all 200ms ease-in-out;
+
+    &:before {
+      @include position(absolute, 0 0 null null);
+      border-bottom-color: tint($base-button-color, 20);
+      border-left-color: tint($base-button-color, 20);
+      border-right-color: $base-background-color;
+      border-style: solid;
+      border-top-color: $base-background-color;
+      border-width: 0.4em;
+      box-shadow: -0.025em 0.075em 0.065em rgba(black, 0.065);
+      content: "";
+      display: block;
+      transition: all 200ms ease-in-out;
+    }
+
+    &:hover {
+      background-color: $base-button-color;
+
+      &:before {
+        @include position(absolute, 0 0 null null);
+        border-bottom-color: tint($base-button-color, 20);
+        border-left-color: tint($base-button-color, 20);
+        transform-origin: top right;
+        transform: scale(1.4);
+        transition:
+          border-color 300ms ease,
+          transform 300ms ease;
+      }
+    }
+  }
 }
+
 .family-title,
 .family-links,
 .family-description {

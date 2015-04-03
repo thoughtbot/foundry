@@ -42,6 +42,7 @@ title: Foundry ∞
             - family.files.each do |filename|
               %li.families-list-item-gallery-item
                 %img{ src: "assets/components" + family.path + filename }
-                = link_to "Download", "assets/components" + family.path + filename, download: true, class: "download-link"
+                .download
+                  = link_to "Download", "assets/components" + family.path + filename, download: true, class: "download-link button"
 
 = partial "partials/footer"
