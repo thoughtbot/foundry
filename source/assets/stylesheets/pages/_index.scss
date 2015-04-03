@@ -31,27 +31,28 @@
 .subtitle-linktodescription {
   background: 0;
   color: $base-font-color;
+  display: inline;
   font-family: $base-font-family;
   font-size: 1rem;
-  padding: 0;
   margin: 0 1em;
-  display: inline;
+  outline: none;
+  padding: 0;
   vertical-align: baseline;
 
-  &.more:after,
-  &.less:before {
-    margin: 0 0.125em;
+  &.more::after,
+  &.less::before {
     display: inline-block;
+    margin: 0 0.125em;
+    outline: none;
     text-decoration: none;
     transition: transform 300ms ease-in-out;
-    outline: none;
   }
 
-  &.more:after {
+  &.more::after {
     content: "→";
   }
 
-  &.less:before {
+  &.less::before {
     content: "←";
   }
 
@@ -75,8 +76,8 @@
 }
 
 .header-linktogallery {
-  margin-top: 0.5em;
   font-size: $h4-font-size;
+  margin-top: 0.5em;
   position: relative;
   transition: all 200ms ease-in-out;
 
@@ -127,7 +128,7 @@
   text-decoration: none;
 
   &:hover {
+    color: $base-font-color;
     text-decoration: underline;
-    color: $base-font-color
   }
 }

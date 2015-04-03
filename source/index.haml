@@ -9,7 +9,10 @@ title: Foundry ∞
       Foundry ∞
     %section.header-content
       %h2.header-subtitle{ data: { toggle_content: "less" } }
-        Providing a new generation of vector assets and infinite possibility for the interactive web and mobile applications.
+        Providing a new generation of vector assets and infinite possibility for the interactive web and mobile applications from the designers at
+        = succeed "." do
+          %a.thoughtbot{ href: "http://thoughtbot.com" }<
+            thoughtbot
         %button.subtitle-linktodescription.more{ data: { toggle: "more" } }
           more
       .header-description{ data: { toggle_content: "more" } }
@@ -20,29 +23,25 @@ title: Foundry ∞
           %button.subtitle-linktodescription.less{ data: { toggle: "less" } }
             less
     %nav.header-linkto
-      %a.header-linktogallery.button{ href: "#gallery"}
-        Gallery
-%section.page-section
+      = link_to "Gallery", "#gallery", class: "header-linktogallery button"
+
 %main{ role:"main" }
   %section.page-section-families
     %ol.families-list#gallery
       - families.each do |family|
         %li.families-list-item
+          %header.family-header
+            %h3.family-title
+              = family.title
+            %h6.family-links
+              = link_to "GitHub", family.repo_url
+              = link_to family.author_handle, family.author_url
+            %p.family-description
+              = family.description
           %ul.families-list-item-gallery
-            %li.families-list-item-gallery-item.centered-content
-              .centered-content-inner
-                %h3.family-title
-                  = family.title
-                %h6.family-links
-                  %a{ href: family.repo_url }<
-                    GitHub
-                  %a{ href: family.author_url }
-                    = family.author_handle
-                %p.family-description
-                  = family.description
             - family.files.each do |filename|
               %li.families-list-item-gallery-item
                 %img{ src: "assets/components" + family.path + filename }
-                %a{ href: "assets/components" + family.path + filename, download: true, class: "download-link" }
-                  Download
+                = link_to "Download", "assets/components" + family.path + filename, download: true, class: "download-link"
+
 = partial "partials/footer"

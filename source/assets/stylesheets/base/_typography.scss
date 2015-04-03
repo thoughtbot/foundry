@@ -61,6 +61,10 @@ a {
     color: $hover-link-color;
     outline: none;
   }
+
+  &.thoughtbot:hover {
+    color: $thoughtbot-red;
+  }
 }
 
 hr {

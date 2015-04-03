@@ -16,7 +16,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thoughtbot/finite/issues"
+    "url": "https://github.com/thoughtbot/foundry/issues"
   },
-  "homepage": "https://thoughtbot.github.io/finite"
+  "homepage": "https://thoughtbot.github.io/foundry"
 }

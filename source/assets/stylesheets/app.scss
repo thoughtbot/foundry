@@ -5,5 +5,8 @@
 @import 'bourbon';
 @import 'base/base';
 
+// Patterns
+@import 'patterns/**/*';
+
 // Views
-@import 'pages/index';
+@import 'pages/**/*';

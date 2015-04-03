@@ -1,0 +1,58 @@
+.families-list-item {
+  border-bottom: $base-border;
+  position: relative;
+}
+
+.families-list-item-gallery {
+  @include clearfix;
+  border-top: $base-border;
+}
+
+.family-header {
+  @include clearfix;
+  @include simple-column;
+  padding-bottom: 2em;
+  padding-top: 2.5em;
+  width: 100%;
+}
+
+.families-list-item-gallery-item {
+  border-bottom: $base-border;
+  border-right: $base-border;
+  float: left;
+  margin-bottom: 0;
+  padding: 3em 2em;
+  position: relative;
+  text-align: center;
+  width: 50%;
+
+  @media #{$small} {
+    padding: 3em 4em;
+    width: percentage(1/3);
+  }
+
+  @media #{$medium} {
+    width: percentage(1/4);
+  }
+
+  .centered-content-inner {
+    @include position(absolute, 50% 0 null 0);
+    transform: translateY(-50%);
+  }
+
+  img,
+  .download-link {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+.family-title,
+.family-links,
+.family-description {
+  display: inline;
+}
+
+.family-description {
+  display: block;
+}

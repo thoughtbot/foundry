@@ -21,7 +21,7 @@ With an initial seed of ~200 spot illustrations that exist as a cohesive set, na
 
 ### What is the structure of these libraries?
 
-Foundry's library architecture will be similar to that of a type foundry. As one foundry might have half a dozen font families, with weights and alternates within them, each finite family can have a particular style, a set of goals, and potential applications. We could have a few established families or groups that are built out over time. Then, as the need and availability arises, more families will be added that blaze new territory in visual direction or theme.
+Foundry's library architecture will be similar to that of a type foundry. As one foundry might have half a dozen font families, with weights and alternates within them, each foundry family can have a particular style, a set of goals, and potential applications. We could have a few established families or groups that are built out over time. Then, as the need and availability arises, more families will be added that blaze new territory in visual direction or theme.
 
 ### Initial Project Goals
 
