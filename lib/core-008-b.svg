@@ -1,76 +1,77 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-  width="160px" height="160px" viewBox="-219 321 160 160">
-	<path fill="#B28B70" d="M-203,343v116c0,3.3,2.7,6,6,6h58V337h-58C-200.3,337-203,339.7-203,343z"/>
-	<path fill="#7F7A77" d="M-202,344v114.5c0,3,2.5,5.5,5.5,5.5h56.5l1-1V340l-1-1h-57C-199.8,339-202,341.2-202,344z"/>
-	<path fill="#CCC2BC" d="M-201,344v114c0,2.8,2.2,5,5,5h56l1-1V340l-1-1h-56C-198.8,339-201,341.2-201,344z"/>
-	<path fill="#B28B70" d="M-81,337h-58v128h58c3.3,0,6-2.7,6-6V343C-75,339.7-77.7,337-81,337z"/>
-	<path fill="#7F7A77" d="M-81,339h-57l-1,1v123l1,1h56.5c3,0,5.5-2.5,5.5-5.5V344C-76,341.2-78.2,339-81,339z"/>
-	<path fill="#CCC2BC" d="M-82,339h-56l-1,1v122l1,1h56c2.8,0,5-2.2,5-5V344C-77,341.2-79.2,339-82,339z"/>
-	<path fill="#FFF4EE" d="M-200,344v114c0,2.8,2.2,5,5,5h55l1-1V340l-1-1h-55C-197.8,339-200,341.2-200,344z"/>
-	<path fill="#FFF8F5" d="M-195,339c-2.8,0-5,2.2-5,5v114c0,2.8,2.2,5,5,5h2c-2.8,0-5-2.2-5-5V345c0-2.8,2.2-5,5-5h54l-1-1H-195z"/>
-	<polygon fill="#FFF8F5" points="-139,462 -140,463 -140,339 -139,340 "/>
-	<path fill="#FFF4EE" d="M-83,339h-55l-1,1v122l1,1h55c2.8,0,5-2.2,5-5V344C-78,341.2-80.2,339-83,339z"/>
-	<polygon fill="#E5DEDA" points="-138,463 -139,462 -139,340 -138,339 -138,339 "/>
-	<rect x="-200" y="353" fill="#EF9F78" width="62" height="0.4"/>
-	<rect x="-200" y="359" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="365" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="371" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="377" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="383" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="389" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="395" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="401" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="407" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="413" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="419" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="425" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="431" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="437" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="443" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="449" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="455" fill="#F2E9E4" width="61" height="0.4"/>
-	<rect x="-200" y="355" fill="#EF9F78" width="60.5" height="0.4"/>
-	<rect x="-138.5" y="353" fill="#EF9F78" width="60.5" height="0.4"/>
-	<rect x="-138" y="359" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="365" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="371" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="377" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="383" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="389" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="395" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="401" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="407" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="413" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="419" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="425" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="431" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="437" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="443" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="449" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138" y="455" fill="#F2E9E4" width="60" height="0.4"/>
-	<rect x="-138.5" y="355" fill="#EF9F78" width="60.5" height="0.4"/>
-	<g>
-		<path fill="#888888" d="M-139,353c-0.3,0-0.5,0.2-0.5,0.5v3.5h1v-3.5C-138.5,353.2-138.7,353-139,353z"/>
-		<path fill="#BBBBBB" d="M-139,353c-0.3,0-0.5,0.2-0.5,0.5v3.5l0.5-1V353z"/>
-		<polygon fill="#666666" points="-139,356 -139.5,357 -138.5,357 	"/>
-		<path fill="#888888" d="M-139,362c-0.3,0-0.5-0.2-0.5-0.5V358h1v3.5C-138.5,361.8-138.7,362-139,362z"/>
-		<path fill="#BBBBBB" d="M-139,362c-0.3,0-0.5-0.2-0.5-0.5V358l0.5,1V362z"/>
-		<polygon fill="#666666" points="-139,359 -139.5,358 -138.5,358 	"/>
-	</g>
-	<g>
-		<path fill="#888888" d="M-139,396c-0.3,0-0.5,0.2-0.5,0.5v3.5h1v-3.5C-138.5,396.2-138.7,396-139,396z"/>
-		<path fill="#BBBBBB" d="M-139,396c-0.3,0-0.5,0.2-0.5,0.5v3.5l0.5-1V396z"/>
-		<polygon fill="#666666" points="-139,399 -139.5,400 -138.5,400 	"/>
-		<path fill="#888888" d="M-139,405c-0.3,0-0.5-0.2-0.5-0.5V401h1v3.5C-138.5,404.8-138.7,405-139,405z"/>
-		<path fill="#BBBBBB" d="M-139,405c-0.3,0-0.5-0.2-0.5-0.5V401l0.5,1V405z"/>
-		<polygon fill="#666666" points="-139,402 -139.5,401 -138.5,401 	"/>
-	</g>
-	<g>
-		<path fill="#888888" d="M-139,440c-0.3,0-0.5,0.2-0.5,0.5v3.5h1v-3.5C-138.5,440.2-138.7,440-139,440z"/>
-		<path fill="#BBBBBB" d="M-139,440c-0.3,0-0.5,0.2-0.5,0.5v3.5l0.5-1V440z"/>
-		<polygon fill="#666666" points="-139,443 -139.5,444 -138.5,444 	"/>
-		<path fill="#888888" d="M-139,449c-0.3,0-0.5-0.2-0.5-0.5V445h1v3.5C-138.5,448.8-138.7,449-139,449z"/>
-		<path fill="#BBBBBB" d="M-139,449c-0.3,0-0.5-0.2-0.5-0.5V445l0.5,1V449z"/>
-		<polygon fill="#666666" points="-139,446 -139.5,445 -138.5,445 	"/>
-	</g>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="160px" height="160px" viewBox="0 0 160 160">
+  <path fill="#b28b70" d="M16,22v116c0,3.2999878,2.6999969,6,6,6h58V16H22C18.6999969,16,16,18.7000122,16,22z"/>
+  <path fill="#7f7a77" d="M17,23v114.5c0,3,2.5,5.5,5.5,5.5H79l1-1V19l-1-1H22C19.1999969,18,17,20.2000122,17,23z"/>
+  <path fill="#ccc2bc" d="M18,23v114c0,2.7999878,2.1999969,5,5,5h56l1-1V19l-1-1H23C20.1999969,18,18,20.2000122,18,23z"/>
+  <path fill="#b28b70" d="M138,16H80v128h58c3.3000031,0,6-2.7000122,6-6V22C144,18.7000122,141.3000031,16,138,16z"/>
+  <path fill="#7f7a77" d="M138,18H81l-1,1v123l1,1h56.5c3,0,5.5-2.5,5.5-5.5V23C143,20.2000122,140.8000031,18,138,18z"/>
+  <path fill="#ccc2bc" d="M137,18H81l-1,1v122l1,1h56c2.8000031,0,5-2.2000122,5-5V23C142,20.2000122,139.8000031,18,137,18z"/>
+  <path fill="#fff4ee" d="M19,23v114c0,2.7999878,2.1999969,5,5,5h55l1-1V19l-1-1H24C21.1999969,18,19,20.2000122,19,23z"/>
+  <path fill="#fff8f5" d="M24,18c-2.8000031,0-5,2.2000122-5,5v114c0,2.7999878,2.1999969,5,5,5h2c-2.8000031,0-5-2.2000122-5-5V24
+    c0-2.7999878,2.1999969-5,5-5h54l-1-1H24z"/>
+  <polygon fill="#fff8f5" points="80,141 79,142 79,18 80,19 "/>
+  <path fill="#fff4ee" d="M136,18H81l-1,1v122l1,1h55c2.8000031,0,5-2.2000122,5-5V23C141,20.2000122,138.8000031,18,136,18z"/>
+  <polygon fill="#e5deda" points="81,142 80,141 80,19 81,18 81,18 "/>
+  <rect x="19" y="32" fill="#ef9f78" width="62" height="0.3999939"/>
+  <rect x="19" y="38" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="44" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="50" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="56" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="62" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="68" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="74" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="80" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="86" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="92" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="98" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="104" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="110" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="116" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="122" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="128" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="134" fill="#f2e9e4" width="61" height="0.3999939"/>
+  <rect x="19" y="34" fill="#ef9f78" width="60.5" height="0.3999939"/>
+  <rect x="80.5" y="32" fill="#ef9f78" width="60.5" height="0.3999939"/>
+  <rect x="81" y="38" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="44" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="50" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="56" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="62" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="68" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="74" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="80" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="86" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="92" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="98" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="104" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="110" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="116" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="122" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="128" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="81" y="134" fill="#f2e9e4" width="60" height="0.3999939"/>
+  <rect x="80.5" y="34" fill="#ef9f78" width="60.5" height="0.3999939"/>
+  <g>
+    <path fill="#888888" d="M80,32c-0.3000031,0-0.5,0.2000122-0.5,0.5V36h1v-3.5C80.5,32.2000122,80.3000031,32,80,32z"/>
+    <path fill="#bbbbbb" d="M80,32c-0.3000031,0-0.5,0.2000122-0.5,0.5V36l0.5-1V32z"/>
+    <polygon fill="#666666" points="80,35 79.5,36 80.5,36   "/>
+    <path fill="#888888" d="M80,41c-0.3000031,0-0.5-0.2000122-0.5-0.5V37h1v3.5C80.5,40.7999878,80.3000031,41,80,41z"/>
+    <path fill="#bbbbbb" d="M80,41c-0.3000031,0-0.5-0.2000122-0.5-0.5V37l0.5,1V41z"/>
+    <polygon fill="#666666" points="80,38 79.5,37 80.5,37   "/>
+  </g>
+  <g>
+    <path fill="#888888" d="M80,75c-0.3000031,0-0.5,0.2000122-0.5,0.5V79h1v-3.5C80.5,75.2000122,80.3000031,75,80,75z"/>
+    <path fill="#bbbbbb" d="M80,75c-0.3000031,0-0.5,0.2000122-0.5,0.5V79l0.5-1V75z"/>
+    <polygon fill="#666666" points="80,78 79.5,79 80.5,79   "/>
+    <path fill="#888888" d="M80,84c-0.3000031,0-0.5-0.2000122-0.5-0.5V80h1v3.5C80.5,83.7999878,80.3000031,84,80,84z"/>
+    <path fill="#bbbbbb" d="M80,84c-0.3000031,0-0.5-0.2000122-0.5-0.5V80l0.5,1V84z"/>
+    <polygon fill="#666666" points="80,81 79.5,80 80.5,80   "/>
+  </g>
+  <g>
+    <path fill="#888888" d="M80,119c-0.3000031,0-0.5,0.2000122-0.5,0.5v3.5h1v-3.5C80.5,119.2000122,80.3000031,119,80,119z"/>
+    <path fill="#bbbbbb" d="M80,119c-0.3000031,0-0.5,0.2000122-0.5,0.5v3.5l0.5-1V119z"/>
+    <polygon fill="#666666" points="80,122 79.5,123 80.5,123  "/>
+    <path fill="#888888" d="M80,128c-0.3000031,0-0.5-0.2000122-0.5-0.5V124h1v3.5C80.5,127.7999878,80.3000031,128,80,128z"/>
+    <path fill="#bbbbbb" d="M80,128c-0.3000031,0-0.5-0.2000122-0.5-0.5V124l0.5,1V128z"/>
+    <polygon fill="#666666" points="80,125 79.5,124 80.5,124  "/>
+  </g>
 </svg>
