@@ -13,6 +13,12 @@
   padding-bottom: 2em;
   padding-top: 2.5em;
   width: 100%;
+
+  @media #{$small} {
+    padding-bottom: 4em;
+    padding-top: 5em;
+    text-align: center;
+  }
 }
 
 .families-list-item-gallery-item {

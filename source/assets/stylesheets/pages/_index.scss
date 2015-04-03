@@ -4,6 +4,26 @@
   min-height: 80vh;
   padding-bottom: 4em;
   position: relative;
+
+  @media #{$small} {
+    margin: 10px 10px 0 10px;
+    padding: 4em;
+
+    &::before {
+      @include position(absolute, 0 0 null null);
+      border-bottom-color: tint($page-header-color, 30%);
+      border-left-color: tint($page-header-color, 30%);
+      border-right-color: $base-background-color;
+      border-style: solid;
+      border-top-color: $base-background-color;
+      border-width: 1em;
+      box-shadow: -0.025em 0.075em 0.065em rgba(black, 0.1);
+      content: "";
+      display: block;
+      transform: scale(1.4);
+      transform-origin: top right;
+    }
+  }
 }
 
 .header-logo {
@@ -13,7 +33,13 @@
   line-height: 2;
 
   @media #{$small} {
-    margin-bottom: 7em;
+    margin-bottom: 6em;
+  }
+}
+
+.header-content {
+  @media #{$small} {
+    margin-bottom: 1em;
   }
 }
 
@@ -71,7 +97,7 @@
 
 .header-description {
   display: none;
-  max-width: 60em;
+  max-width: 58em;
 }
 
 .header-linktogallery {
