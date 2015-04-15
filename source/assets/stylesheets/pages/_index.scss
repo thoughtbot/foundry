@@ -6,8 +6,8 @@
   position: relative;
 
   @media #{$small} {
-    margin: 10px 10px 0 10px;
-    padding: 4em;
+    margin: 1em 1em 0 1em;
+    padding: 3em;
 
     &::before {
       @include position(absolute, 0 0 null null);
@@ -20,8 +20,6 @@
       box-shadow: -0.025em 0.075em 0.065em rgba(black, 0.1);
       content: "";
       display: block;
-      transform: scale(1.4);
-      transform-origin: top right;
     }
   }
 }
@@ -105,11 +103,12 @@
   margin-top: 0.5em;
   position: relative;
   transition: all 200ms ease-in-out;
+  background-color: $base-font-color;
 
   &:before {
     @include position(absolute, 0 0 null null);
-    border-bottom-color: tint($base-button-color, 20);
-    border-left-color: tint($base-button-color, 20);
+    border-bottom-color: tint($base-font-color, 20);
+    border-left-color: tint($base-font-color, 20);
     border-right-color: $page-header-color;
     border-style: solid;
     border-top-color: $page-header-color;
@@ -121,12 +120,12 @@
   }
 
   &:hover {
-    background-color: $base-button-color;
+    background-color: $base-font-color;
 
     &:before {
       @include position(absolute, 0 0 null null);
-      border-bottom-color: tint($base-button-color, 20);
-      border-left-color: tint($base-button-color, 20);
+      border-bottom-color: tint($base-font-color, 20);
+      border-left-color: tint($base-font-color, 20);
       transform-origin: top right;
       transform: scale(1.25);
       transition:

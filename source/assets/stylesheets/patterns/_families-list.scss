@@ -65,7 +65,9 @@
       border-style: solid;
       border-top-color: $base-background-color;
       border-width: 0.4em;
-      box-shadow: -0.025em 0.075em 0.065em rgba(black, 0.065);
+      box-shadow:
+        -0.025em 0.075em 0.065em rgba(black, 0.065),
+        1px 0 0 white;
       content: "";
       display: block;
       transition: all 200ms ease-in-out;
