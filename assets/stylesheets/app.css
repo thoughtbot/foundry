@@ -97,7 +97,7 @@ a {
 
 /* line 70, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 hr {
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 1px solid whitesmoke;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -111,7 +111,7 @@ picture {
 
 /* line 84, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 blockquote {
-  border-left: 2px solid #d8d8d8;
+  border-left: 2px solid whitesmoke;
   color: #676669;
   margin: 1.5em 0;
   padding-left: 0.75em; }
@@ -126,8 +126,8 @@ cite {
 
 /* line 1, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
 fieldset {
-  background: #f2f2f2;
-  border: 1px solid #d8d8d8;
+  background: white;
+  border: 1px solid whitesmoke;
   margin: 0 0 0.75em 0;
   padding: 1.5em; }
 
@@ -159,7 +159,7 @@ select[multiple=multiple] {
           transition: border-color;
   background-color: white;
   border-radius: 3px;
-  border: 1px solid #d8d8d8;
+  border: 1px solid whitesmoke;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
@@ -170,7 +170,7 @@ select[multiple=multiple] {
   textarea:hover,
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
   select[multiple=multiple]:hover {
-    border-color: #bfbfbf; }
+    border-color: gainsboro; }
   /* line 48, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
   textarea:focus,
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
@@ -213,14 +213,14 @@ table {
 
 /* line 8, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_tables.scss */
 th {
-  border-bottom: 1px solid #b2b2b2;
+  border-bottom: 1px solid #cfcfcf;
   font-weight: bold;
   padding: 0.75em 0;
   text-align: left; }
 
 /* line 15, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_tables.scss */
 td {
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 1px solid whitesmoke;
   padding: 0.75em 0; }
 
 /* line 20, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_tables.scss */
@@ -271,7 +271,7 @@ input[type="submit"] {
 
 /* line 5, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
 .families-list-item-gallery {
-  border-top: 1px solid #d8d8d8; }
+  border-top: 1px solid whitesmoke; }
   /* line 15, /Users/whmii/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.0.2/app/assets/stylesheets/addons/_clearfix.scss */
   .families-list-item-gallery:after {
     content: "";
@@ -303,8 +303,8 @@ input[type="submit"] {
 
 /* line 24, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
 .families-list-item-gallery-item {
-  border-bottom: 1px solid #d8d8d8;
-  border-right: 1px solid #d8d8d8;
+  border-bottom: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
   float: left;
   margin-bottom: 0;
   padding: 3em 2em;
