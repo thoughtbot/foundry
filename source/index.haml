@@ -43,6 +43,10 @@ title: Foundry ∞
               %li.families-list-item-gallery-item
                 %img{ src: "assets/components" + family.path + filename }
                 .download
-                  = link_to "Download", "assets/components" + family.path + filename, download: true, class: "download-link button"
+                  = link_to "Download",
+                    "assets/components" + family.path + filename,
+                    download: filename,
+                    class: "download-link button",
+                    onclick: "ga('send','event','downloads','#{filename}')"
 
 = partial "partials/footer"
