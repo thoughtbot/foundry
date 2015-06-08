@@ -24,6 +24,13 @@ title: Foundry ∞
             less
     %nav.header-linkto
       = link_to "Gallery", "#gallery", class: "header-linktogallery button"
+.signup
+  %form#mc-embedded-subscribe-form.validate.signup_form{ action: "//thoughtbot.us11.list-manage.com/subscribe/post?u=04f9ab7c6af5b2f23b1545be2&id=8790e2dc86", method: "post", name: "mc-embedded-subscribe-form", novalidate: "", target: "_blank" }
+    %label.signup_label{ for: "mce-EMAIL" } Subscribe for Updates
+    %input#mce-EMAIL.email.signup_input{ name: "EMAIL", placeholder: "email address", required: "", type: "email", value: "" }
+    %div{ style: "position: absolute; left: -5000px;" }
+      %input{ name: "b_04f9ab7c6af5b2f23b1545be2_8790e2dc86", tabindex: "-1", type: "text", value: "" }
+    %input#mc-embedded-subscribe.button.signup_button{ name: "subscribe", type: "submit", value: "Subscribe" }
 
 %main{ role:"main" }
   %section.page-section-families

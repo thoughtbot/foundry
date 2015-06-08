@@ -1,0 +1,41 @@
+.signup {
+  border: 1px solid $page-header-color;
+  color: $base-font-color;
+  padding-bottom: 4em;
+  padding: 1em;
+  position: relative;
+
+  @media #{$small} {
+    margin: 1em 1em 0 1em;
+    padding: 3em;
+  }
+
+  &_form {
+    max-width: 35em;
+    margin: 0 auto;
+  }
+
+  &_label,
+  input#{&}_input,
+  input#{&}_submit {
+    float: left;
+    width: 100%;
+  }
+
+  @media #{$small} {
+
+    input#{&}_input {
+      line-height: 1.4;
+      width: 66.66%;
+    }
+
+    input#{&}_submit {
+      width: 33.33%;
+    }
+  }
+
+  input#{&}_input {
+    border-radius: 0;
+    border: 1px solid $page-header-color;
+  }
+}
