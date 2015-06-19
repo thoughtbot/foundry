@@ -80,8 +80,7 @@ p {
 
 /* line 51, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
 a {
-  -webkit-transition: color 0.1s linear;
-          transition: color 0.1s linear;
+  transition: color 0.1s linear;
   color: #414042;
   text-decoration: underline; }
   /* line 56, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_typography.scss */
@@ -152,11 +151,10 @@ label {
 
 /* line 29, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
 textarea,
-input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"],
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
 select[multiple=multiple] {
   box-sizing: border-box;
-  -webkit-transition: border-color;
-          transition: border-color;
+  transition: border-color;
   background-color: white;
   border-radius: 3px;
   border: 1px solid whitesmoke;
@@ -168,12 +166,12 @@ select[multiple=multiple] {
   width: 100%; }
   /* line 44, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
   textarea:hover,
-  input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
+  input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
   select[multiple=multiple]:hover {
     border-color: gainsboro; }
   /* line 48, /Users/whmii/workspace/foundry/source/assets/stylesheets/base/_forms.scss */
   textarea:focus,
-  input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
   select[multiple=multiple]:focus {
     border-color: #eab111;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(210, 159, 15, 0.7);
@@ -254,10 +252,7 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
   font-weight: 300;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
 
@@ -272,11 +267,11 @@ input[type="submit"] {
 /* line 5, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
 .families-list-item-gallery {
   border-top: 1px solid whitesmoke; }
-  /* line 15, /Users/whmii/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.0.2/app/assets/stylesheets/addons/_clearfix.scss */
-  .families-list-item-gallery:after {
+  /* line 20, /Users/whmii/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  .families-list-item-gallery::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
 
 /* line 10, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
 .family-header {
@@ -289,11 +284,11 @@ input[type="submit"] {
   padding-bottom: 2em;
   padding-top: 2.5em;
   width: 100%; }
-  /* line 15, /Users/whmii/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.0.2/app/assets/stylesheets/addons/_clearfix.scss */
-  .family-header:after {
+  /* line 20, /Users/whmii/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  .family-header::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
   @media only screen and (min-width: 768px) {
     /* line 10, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
     .family-header {
@@ -326,9 +321,7 @@ input[type="submit"] {
     top: 50%;
     right: 0;
     left: 0;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%); }
+    transform: translateY(-50%); }
   /* line 48, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
   .families-list-item-gallery-item img,
   .families-list-item-gallery-item .download {
@@ -339,15 +332,14 @@ input[type="submit"] {
   .families-list-item-gallery-item .download-link {
     margin-top: 0.5em;
     position: relative;
-    -webkit-transition: all 200ms ease-in-out;
-            transition: all 200ms ease-in-out; }
+    transition: all 200ms ease-in-out; }
     /* line 60, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
     .families-list-item-gallery-item .download-link:before {
       position: absolute;
       top: 0;
       right: 0;
-      border-bottom-color: #eec040;
-      border-left-color: #eec040;
+      border-bottom-color: #eec141;
+      border-left-color: #eec141;
       border-right-color: white;
       border-style: solid;
       border-top-color: white;
@@ -355,8 +347,7 @@ input[type="submit"] {
       box-shadow: -0.025em 0.075em 0.065em rgba(0, 0, 0, 0.065), 1px 0 0 white;
       content: "";
       display: block;
-      -webkit-transition: all 200ms ease-in-out;
-              transition: all 200ms ease-in-out; }
+      transition: all 200ms ease-in-out; }
     /* line 76, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
     .families-list-item-gallery-item .download-link:hover {
       background-color: #eab111; }
@@ -365,16 +356,11 @@ input[type="submit"] {
         position: absolute;
         top: 0;
         right: 0;
-        border-bottom-color: #eec040;
-        border-left-color: #eec040;
-        -webkit-transform-origin: top right;
-            -ms-transform-origin: top right;
-                transform-origin: top right;
-        -webkit-transform: scale(1.4);
-            -ms-transform: scale(1.4);
-                transform: scale(1.4);
-        -webkit-transition: border-color 300ms ease, -webkit-transform 300ms ease;
-                transition: border-color 300ms ease, transform 300ms ease; }
+        border-bottom-color: #eec141;
+        border-left-color: #eec141;
+        transform-origin: top right;
+        transform: scale(1.4);
+        transition: border-color 300ms ease, transform 300ms ease; }
 
 /* line 93, /Users/whmii/workspace/foundry/source/assets/stylesheets/patterns/_families-list.scss */
 .family-title,
@@ -462,8 +448,8 @@ input[type="submit"] {
         position: absolute;
         top: 0;
         right: 0;
-        border-bottom-color: #f7d057;
-        border-left-color: #f7d057;
+        border-bottom-color: #f7d157;
+        border-left-color: #f7d157;
         border-right-color: white;
         border-style: solid;
         border-top-color: white;
@@ -513,8 +499,7 @@ input[type="submit"] {
     margin: 0 0.125em;
     outline: none;
     text-decoration: none;
-    -webkit-transition: -webkit-transform 300ms ease-in-out;
-            transition: transform 300ms ease-in-out; }
+    transition: transform 300ms ease-in-out; }
   /* line 74, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription.more::after {
     content: "→"; }
@@ -527,14 +512,10 @@ input[type="submit"] {
     color: #414042; }
   /* line 87, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription.more:hover:after {
-    -webkit-transform: translate(0.5em);
-        -ms-transform: translate(0.5em);
-            transform: translate(0.5em); }
+    transform: translate(0.5em); }
   /* line 91, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .subtitle-linktodescription.less:hover:before {
-    -webkit-transform: translate(-0.5em);
-        -ms-transform: translate(-0.5em);
-            transform: translate(-0.5em); }
+    transform: translate(-0.5em); }
 
 /* line 96, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .header-description {
@@ -546,16 +527,15 @@ input[type="submit"] {
   font-size: 1.25em;
   margin-top: 0.5em;
   position: relative;
-  -webkit-transition: all 200ms ease-in-out;
-          transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
   background-color: #414042; }
   /* line 108, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .header-linktogallery:before {
     position: absolute;
     top: 0;
     right: 0;
-    border-bottom-color: #676667;
-    border-left-color: #676667;
+    border-bottom-color: #676668;
+    border-left-color: #676668;
     border-right-color: #f4bd0f;
     border-style: solid;
     border-top-color: #f4bd0f;
@@ -563,8 +543,7 @@ input[type="submit"] {
     box-shadow: -0.025em 0.075em 0.065em rgba(0, 0, 0, 0.065);
     content: "";
     display: block;
-    -webkit-transition: all 200ms ease-in-out;
-            transition: all 200ms ease-in-out; }
+    transition: all 200ms ease-in-out; }
   /* line 122, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
   .header-linktogallery:hover {
     background-color: #414042; }
@@ -573,16 +552,11 @@ input[type="submit"] {
       position: absolute;
       top: 0;
       right: 0;
-      border-bottom-color: #676667;
-      border-left-color: #676667;
-      -webkit-transform-origin: top right;
-          -ms-transform-origin: top right;
-              transform-origin: top right;
-      -webkit-transform: scale(1.25);
-          -ms-transform: scale(1.25);
-              transform: scale(1.25);
-      -webkit-transition: border-color 300ms ease, -webkit-transform 300ms ease;
-              transition: border-color 300ms ease, transform 300ms ease; }
+      border-bottom-color: #676668;
+      border-left-color: #676668;
+      transform-origin: top right;
+      transform: scale(1.25);
+      transition: border-color 300ms ease, transform 300ms ease; }
 
 /* line 138, /Users/whmii/workspace/foundry/source/assets/stylesheets/pages/_index.scss */
 .page-header-container {
