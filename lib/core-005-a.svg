@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160">
+  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+  <title id="title">Smart phone</title>
+  <desc id="desc">A modern smart phone with a blank screen</desc>
   <g>
     <path fill="#e0e0e0" d="M48.5,36L48.5,36c-0.6000061,0-1-0.3999939-1-1v-2c0-0.6000061,0.3999939-1,1-1l0,0
       c0.6000061,0,1,0.3999939,1,1v2C49.5,35.6000061,49.1000061,36,48.5,36z"/>

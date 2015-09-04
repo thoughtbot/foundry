@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160">
+  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+  <title id="title">Three pens</title>
+  <desc id="desc">Three pens for drawing and designing</desc>
   <rect x="60" y="17" fill="#e0e0e0" width="8" height="27"/>
   <path fill="#555555" d="M83,122h-6c-0.6000061,0-1-0.3999939-1-1v-1h8v1C84,121.6000061,83.6000061,122,83,122z"/>
   <polygon fill="#555555" points="83,133 82,134 78,134 77,133 77,121 83,121 "/>

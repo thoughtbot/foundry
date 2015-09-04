@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160">
+  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+  <title id="title">Drafting compass</title>
+  <desc id="desc">A pair of drafting compasses, one open and one closed</desc>
   <circle fill="#999999" cx="81" cy="83" r="1"/>
   <rect x="80" y="83" fill="#999999" width="2" height="5"/>
   <path fill="#333333" d="M80.3000031,113c0,0-1.3000031-2.7000122-1.3000031-6s0.8999939-6,2-6s2,2.7000122,2,6

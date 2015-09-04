@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160">
+  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+  <title id="title">Computer monitor</title>
+  <desc id="desc">A computer monitor with a blank screen</desc>
   <path fill="#cccccc" d="M98.8000031,131.3999939c0.0999985,1.5,1.3000031,2.6000061,2.8000031,2.7000122L112.0000076,135v1H48v-1
     l11.5-0.8999939C61,134,62.1000061,132.8000183,62.3000031,131.3999939L64.1000061,111h33L98.8000031,131.3999939z"/>
   <rect x="48" y="135" fill="#e0e0e0" width="64" height="1"/>

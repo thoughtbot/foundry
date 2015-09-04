@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160">
+  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+  <title id="title">Mug</title>
+  <desc id="desc">A black mug with "Like a Boss" written on it.</desc>
   <path fill="#444444" d="M111,50c-8.8000031,0-16,11.1000061-16,26s7.1999969,26,16,26s13.9000015-11.1000061,13.9000015-26
     S119.8000031,50,111,50z M101,63c6.6999969,0-0.0999985-7,10-7c5.5999985,0,9,8.7999878,9,20s-3.4000015,20-9,20
     c-10,0-3.3000031-7-10-7V63z"/>
@@ -8,13 +10,8 @@
   <path fill="#333333" d="M37,39.2999878v78.3999939c0,1.7999878,1.3000031,3.2999878,3,3.2999878h58c1.6999969,0,3-1.5,3-3.2999878
     V39.2999878H37z"/>
   <path fill="#444444" d="M41,39.2999878V116c0,1.1000061,0.8999939,2,2,2h57c0.5999985,0,1-0.3999939,1-1V39.2999878H41z"/>
-  <text transform="matrix(1 0 0 1 45.4721985 71)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">li</text>
-  <text transform="matrix(1 0 0 1 54.0722046 71)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">k</text>
-  <text transform="matrix(1 0 0 1 63.6722107 71)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">e</text>
-  <text transform="matrix(1 0 0 1 74.7722168 71)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">•</text>
+  <text transform="matrix(1 0 0 1 45.4721985 71)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">like</text>
   <text transform="matrix(1 0 0 1 82.4721985 71)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">a </text>
-  <text transform="matrix(1 0 0 1 43.8721924 89)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">BO</text>
-  <text transform="matrix(1 0 0 1 70.1722107 89)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">S</text>
-  <text transform="matrix(1 0 0 1 82.1722107 89)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">S</text>
+  <text transform="matrix(1 0 0 1 43.8721924 89)" fill="#eeeeee" font-family="'Helvetica-Bold'" font-size="18">BOSS</text>
   <line fill="none" x1="101" y1="94" x2="101" y2="97"/>
 </svg>

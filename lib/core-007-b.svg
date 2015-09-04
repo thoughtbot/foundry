@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160">
+  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+  <title id="title">Drafting tools</title>
+  <desc id="desc">A drafting protractor and triangle</desc>
   <path fill="#e0e0e0" d="M96,77.1000061L124.5999985,128H96V77.1000061 M80,16v128h72L80,16L80,16z"/>
   <path fill="#e0e0e0" d="M8,16v19h1v44c0.6000061,0,1,0.3999939,1,1s-0.3999939,1-1,1v44H8v19c35.3000031,0,64-28.7000122,64-64
     S43.3000031,16,8,16z M24,125V35c18.6000061,6.6000061,32,24.1000061,32,45S42.6000061,118.3999939,24,125z"/>

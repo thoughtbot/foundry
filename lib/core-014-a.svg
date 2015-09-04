@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160">
+  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+  <title id="title">Padlock</title>
+  <desc id="desc">A locked grey padlock</desc>
   <rect x="38" y="67" fill="#888888" width="34" height="7"/>
   <rect x="88" y="67" fill="#888888" width="34" height="7"/>
   <path fill="#bbbbbb" d="M80,14c-19.8999939,0-36,16.1000061-36,35.8999939C44,59.6999817,44,74,44,74h12

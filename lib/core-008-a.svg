@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160">
+  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+  <title id="title">Notebook</title>
+  <desc id="desc">A closed brown notebook with "Notes" written on the cover</desc>
   <path fill="#aaaaaa" d="M40,128L40,128c-0.6000061,0-1-0.3999939-1-1v-6c0-0.6000061,0.3999939-1,1-1l0,0
     c0.6000061,0,1,0.3999939,1,1v6C41,127.6000061,40.6000061,128,40,128z"/>
   <path fill="#cccccc" d="M40,127L40,127c-0.6000061,0-1-0.3999939-1-1v-4c0-0.6000061,0.3999939-1,1-1l0,0
