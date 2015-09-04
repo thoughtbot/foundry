@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="160px" height="160px" viewBox="0 0 160 160"
+  aria-role="img" aria-labelledby="title" aria-describedby="desc">
   <title id="title">Three pens</title>
   <desc id="desc">Three pens for drawing and designing</desc>
   <rect x="60" y="17" fill="#e0e0e0" width="8" height="27"/>

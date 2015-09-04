@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="160px" height="160px" viewBox="0 0 160 160"
+  aria-role="img" aria-labelledby="title" aria-describedby="desc">
   <title id="title">Code editor window</title>
   <desc id="desc">A text editor window with code written inside it</desc>
   <path fill="#cccccc" d="M142,16H18c-1.1000061,0-2,0.8999939-2,2v124c0,1.1000061,0.8999939,2,2,2h124c1.1000061,0,2-0.8999939,2-2

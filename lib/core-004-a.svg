@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-  width="160px" height="160px" viewBox="0 0 160 160" aria-labelledby="title" aria-describedby="desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="160px" height="160px" viewBox="0 0 160 160"
+  aria-role="img" aria-labelledby="title" aria-describedby="desc">
   <title id="title">Tablet</title>
   <desc id="desc">A tablet computer with a blank screen</desc>
   <path fill="#e0e0e0" d="M121,16H39c-1.6999969,0-3,1.2999878-3,3v122c0,1.7000122,1.3000031,3,3,3h82c1.6999969,0,3-1.2999878,3-3
