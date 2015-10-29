@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="160px" height="160px" viewBox="0 0 160 160"
-  aria-role="img" aria-labelledby="title" aria-describedby="desc">
+  role="img" aria-labelledby="title" aria-describedby="desc">
   <title id="title">Mug</title>
   <desc id="desc">A black mug with "Like a Boss" written on it.</desc>
   <path fill="#444444" d="M111,50c-8.8000031,0-16,11.1000061-16,26s7.1999969,26,16,26s13.9000015-11.1000061,13.9000015-26

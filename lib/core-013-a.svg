@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="160px" height="160px" viewBox="0 0 160 160"
-  aria-role="img" aria-labelledby="title" aria-describedby="desc">
+  role="img" aria-labelledby="title" aria-describedby="desc">
   <title id="title">Folder</title>
   <desc id="desc">An empty blue folder with a tab on the top left</desc>
   <path fill="#99e7ff" d="M133,125H27c-1.6999969,0-3-1.2999878-3-3V38c0-1.7000122,1.3000031-3,3-3h26.3000031

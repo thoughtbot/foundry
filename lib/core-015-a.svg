@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="160px" height="160px" viewBox="0 0 160 160"
-  aria-role="img" aria-labelledby="title" aria-describedby="desc">
+  role="img" aria-labelledby="title" aria-describedby="desc">
   <title id="title">Microphone</title>
   <desc id="desc">A studio microphone</desc>
   <path fill="#cccccc" d="M88,24H72c-4.3999939,0-8,3.6000061-8,8v33h32V32C96,27.6000061,92.4000015,24,88,24z"/>

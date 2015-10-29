@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="160px" height="160px" viewBox="0 0 160 160"
-  aria-role="img" aria-labelledby="title" aria-describedby="desc">
+  role="img" aria-labelledby="title" aria-describedby="desc">
   <title id="title">An assortment of pencils</title>
   <desc id="desc">Four graphite pencils and one red colored pencil</desc>
   <polygon fill="#e5d6b7" points="95,140 93,129 93,127 99,127 99,129 97,140 96,141 "/>
