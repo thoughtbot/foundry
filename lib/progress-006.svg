@@ -1,6 +1,7 @@
 <svg
-  version="1.1"
   id="progress-006"
+  class="progress-006"
+  version="1.1"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   x="0px"
@@ -9,6 +10,7 @@
   height="50px"
   viewBox="0 0 50 50">
   <circle
+    class="shape"
     cx="10"
     cy="25"
     r="10"
@@ -23,6 +25,7 @@
   </circle>
 
   <circle
+    class="shape"
     cx="25"
     cy="25"
     r="10"
@@ -37,6 +40,7 @@
   </circle>
 
   <circle
+    class="shape"
     cx="40"
     cy="25"
     r="10"

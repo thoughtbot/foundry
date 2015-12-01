@@ -1,6 +1,7 @@
 <svg
-  version="1.1"
   id="progress-008"
+  class="progress-008"
+  version="1.1"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   x="0px"
@@ -9,6 +10,7 @@
   height="50px"
   viewBox="0 0 50 50">
   <circle
+    class="path"
     cx="25"
     cy="25"
     r="10"
@@ -23,6 +25,7 @@
   </circle>
 
   <circle
+    class="path"
     cx="25"
     cy="25"
     r="10"
@@ -47,6 +50,7 @@
   </circle>
 
   <circle
+    class="path"
     cx="25"
     cy="25"
     r="10"
@@ -71,6 +75,7 @@
   </circle>
 
   <circle
+    class="path"
     cx="25"
     cy="25"
     r="10"

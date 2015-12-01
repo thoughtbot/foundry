@@ -1,6 +1,7 @@
 <svg
-  version="1.1"
   id="progress-003"
+  class="progress-003"
+  version="1.1"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   x="0px"
@@ -9,6 +10,7 @@
   height="50px"
   viewBox="0 0 50 50">
   <rect
+    class="shape"
     x="10"
     y="5"
     width="6"
@@ -25,6 +27,7 @@
   </rect>
 
   <rect
+    class="shape"
     x="22"
     y="5"
     width="6"
@@ -41,6 +44,7 @@
   </rect>
 
   <rect
+    class="shape"
     x="34"
     y="5"
     width="6"
