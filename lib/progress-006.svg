@@ -1,1 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" viewBox="0 0 24 30" enable-background="new 0 0 50 50"><path fill="#333" d="M0 13h4v5H0zM10 13h4v5h-4zM20 13h4v5h-4z"><animate attributeName="height" attributeType="XML" values="5;21;5" begin="0s" dur="0.6s" repeatCount="indefinite"/><animate attributeName="y" attributeType="XML" values="13; 5; 13" begin="0s" dur="0.6s" repeatCount="indefinite"/></path></svg>
+<svg
+  version="1.1"
+  id="progress-006"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  width="50px"
+  height="50px"
+  viewBox="0 0 50 50">
+  <circle
+    cx="10"
+    cy="25"
+    r="10"
+    fill="#000">
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 8; 2"
+      begin="-0.333s"
+      dur="0.5s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <circle
+    cx="25"
+    cy="25"
+    r="10"
+    fill="#000">
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 8; 2"
+      begin="-0.166s"
+      dur="0.5s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <circle
+    cx="40"
+    cy="25"
+    r="10"
+    fill="#000">
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 8; 2"
+      begin="0s"
+      dur="0.5s"
+      repeatCount="indefinite" />
+  </circle>
+</svg>
