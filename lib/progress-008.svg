@@ -1,0 +1,96 @@
+<svg
+  version="1.1"
+  id="progress-008"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  width="50px"
+  height="50px"
+  viewBox="0 0 50 50">
+  <circle
+    cx="25"
+    cy="25"
+    r="10"
+    fill="#000">
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 6; 2"
+      begin="0s"
+      dur="0.5s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <circle
+    cx="25"
+    cy="25"
+    r="10"
+    fill="none"
+    stroke="#000"
+    stroke-width="2">
+    <animate
+      attributeName="opacity"
+      attributeType="XML"
+      values="1; 0"
+      begin="-1s"
+      dur="1.5s"
+      repeatCount="indefinite" />
+
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 24"
+      begin="-1s"
+      dur="1.5s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <circle
+    cx="25"
+    cy="25"
+    r="10"
+    fill="none"
+    stroke="#000"
+    stroke-width="2">
+    <animate
+      attributeName="opacity"
+      attributeType="XML"
+      values="1; 0"
+      begin="-0.5s"
+      dur="1.5s"
+      repeatCount="indefinite" />
+
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 24"
+      begin="-0.5s"
+      dur="1.5s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <circle
+    cx="25"
+    cy="25"
+    r="10"
+    fill="none"
+    stroke="#000"
+    stroke-width="2">
+    <animate
+      attributeName="opacity"
+      attributeType="XML"
+      values="1; 0"
+      begin="0s"
+      dur="1.5s"
+      repeatCount="indefinite" />
+
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 24"
+      begin="0s"
+      dur="1.5s"
+      repeatCount="indefinite" />
+  </circle>
+</svg>
