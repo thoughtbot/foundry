@@ -1,14 +1,10 @@
 <svg
-  id="progress-007"
-  class="progress-007"
-  version="1.1"
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  x="0px"
-  y="0px"
   width="50px"
   height="50px"
-  viewBox="0 0 50 50">
+  viewBox="0 0 50 50"
+  id="progress-007"
+  class="progress-007">
   <circle
     class="shape"
     cx="10"
@@ -22,7 +18,6 @@
       begin="-0.333s"
       dur="0.5s"
       repeatCount="indefinite" />
-
     <animate
       attributeName="r"
       attributeType="XML"
@@ -31,7 +26,6 @@
       dur="0.5s"
       repeatCount="indefinite" />
   </circle>
-
   <circle
     class="shape"
     cx="25"
@@ -45,7 +39,6 @@
       begin="-0.166s"
       dur="0.5s"
       repeatCount="indefinite" />
-
     <animate
       attributeName="r"
       attributeType="XML"
@@ -54,7 +47,6 @@
       dur="0.5s"
       repeatCount="indefinite" />
   </circle>
-
   <circle
     class="shape"
     cx="40"
@@ -68,7 +60,6 @@
       begin="0s"
       dur="0.5s"
       repeatCount="indefinite" />
-
     <animate
       attributeName="r"
       attributeType="XML"

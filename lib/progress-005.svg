@@ -1,14 +1,10 @@
 <svg
-  id="progress-005"
-  class="progress-005"
-  version="1.1"
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  x="0px"
-  y="0px"
   width="50px"
   height="50px"
-  viewBox="0 0 50 50">
+  viewBox="0 0 50 50"
+  id="progress-005"
+  class="progress-005">
   <rect
     class="shape"
     x="10"
@@ -23,7 +19,6 @@
       begin="-0.333s"
       dur="0.5s"
       repeatCount="indefinite" />
-
     <animate
       attributeName="height"
       attributeType="XML"
@@ -31,7 +26,6 @@
       begin="-0.333s"
       dur="0.5s"
       repeatCount="indefinite" />
-
     <animate
       attributeName="y"
       attributeType="XML"
@@ -40,7 +34,6 @@
       dur="0.5s"
       repeatCount="indefinite" />
   </rect>
-
   <rect
     class="shape"
     x="22"
@@ -55,7 +48,6 @@
       begin="-0.166s"
       dur="0.5s"
       repeatCount="indefinite" />
-
     <animate
       attributeName="height"
       attributeType="XML"
@@ -63,7 +55,6 @@
       begin="-0.166s"
       dur="0.5s"
       repeatCount="indefinite" />
-
     <animate
       attributeName="y"
       attributeType="XML"
@@ -72,7 +63,6 @@
       dur="0.5s"
       repeatCount="indefinite" />
   </rect>
-
   <rect
     class="shape"
     x="34"
@@ -87,7 +77,6 @@
       begin="0s"
       dur="0.5s"
       repeatCount="indefinite" />
-
     <animate
       attributeName="height"
       attributeType="XML"
@@ -95,7 +84,6 @@
       begin="0s"
       dur="0.5s"
       repeatCount="indefinite" />
-
     <animate
       attributeName="y"
       attributeType="XML"

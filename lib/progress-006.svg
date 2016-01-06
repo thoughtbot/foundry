@@ -1,14 +1,10 @@
 <svg
-  id="progress-006"
-  class="progress-006"
-  version="1.1"
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  x="0px"
-  y="0px"
   width="50px"
   height="50px"
-  viewBox="0 0 50 50">
+  viewBox="0 0 50 50"
+  id="progress-006"
+  class="progress-006">
   <circle
     class="shape"
     cx="10"
@@ -23,7 +19,6 @@
       dur="0.5s"
       repeatCount="indefinite" />
   </circle>
-
   <circle
     class="shape"
     cx="25"
@@ -38,7 +33,6 @@
       dur="0.5s"
       repeatCount="indefinite" />
   </circle>
-
   <circle
     class="shape"
     cx="40"
