@@ -1,3 +1,21 @@
+@keyframes wiggle {
+  20% {
+    transform: rotate(5deg);
+  }
+
+  40% {
+    transform: rotate(-15deg);
+  }
+
+  60% {
+    transform: rotate(8deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+}
+
 .page-header {
   background-color: $page-header-color;
   color: $base-font-color;
@@ -16,36 +34,51 @@
       border-right-color: $base-background-color;
       border-style: solid;
       border-top-color: $base-background-color;
-      border-width: 1em;
+      border-width: 2.75em;
       box-shadow: -0.025em 0.075em 0.065em rgba(black, 0.1);
       content: "";
       display: block;
     }
   }
+
+  img {
+    display: block;
+  }
+}
+
+.header-image {
+  max-width: $row-width / 2;
+  margin: 0 auto;
 }
 
 .header-logo {
   font-family: $sans-serif;
-  font-size: $h3-font-size;
+  font-size: $h0-font-size;
   font-weight: 400;
-  line-height: 2;
+  text-align: center;
+  color: $base-background-color;
 
   @media #{$small} {
-    margin-bottom: 6em;
+    font-size: $h0-font-size * 1.5;
   }
 }
 
 .header-content {
-  @media #{$small} {
-    margin-bottom: 1em;
+  color: $base-background-color;
+  margin: 0 auto;
+  max-width: 35em;
+  text-align: center;
+
+  a {
+    color: $base-background-color;
   }
 }
 
 .header-subtitle {
+  font-weight: 400;
 
   @media #{$small} {
     font-size: $h0-font-size;
-    font-weight: 400;
     margin-bottom: 0.25em;
     max-width: 24em;
   }
@@ -140,19 +173,26 @@
 }
 
 .page-navigation {
-  border-radius: 0 0 $base-border-radius $base-border-radius;
   float: right;
   padding: 0.125em 0.5em;
-  position: relative;
+  position: absolute;
+  top: 0.125rem;
+  right: 0.125rem;
+
+  @media #{$small} {
+    top: 0.125rem;
+    right: 0.125rem;
+  }
 }
 
 .navigation-list-item-link {
-  color: $base-font-color;
+  color: $base-background-color;
   font-size: $h4-font-size;
   text-decoration: none;
+  width: 40px;
+  display: block;
 
   &:hover {
-    color: $base-font-color;
-    text-decoration: underline;
+    animation: wiggle .5s ease;
   }
 }

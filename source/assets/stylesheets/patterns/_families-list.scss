@@ -1,3 +1,11 @@
+.families-list {
+  max-width: $row-width;
+
+  @media #{$large} {
+    margin: 1em auto 0;
+  }
+}
+
 .families-list-item {
   position: relative;
 }

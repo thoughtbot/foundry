@@ -33,7 +33,7 @@ $opposite-direction: right;
   $opposite-direction: left;
 }
 
-$row-width: em(1280);
+$row-width: em(1600);
 $column-gutter: em(20);
 $total-columns: 12;
 
@@ -43,7 +43,7 @@ $total-columns: 12;
 
 $small-screen: 768px !default;
 $medium-screen: 1280px !default;
-$large-screen: 1440px !default;
+$large-screen: 1600px !default;
 
 $screen: "only screen" !default;
 $small: "only screen and (min-width: #{$small-screen})" !default;

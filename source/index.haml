@@ -5,25 +5,16 @@ title: Foundry ∞
 %header.page-header.less{ data: { toggle_container: "container" } }
   .page-header-container
     = partial "partials/navigation"
+    .header-image
+      = image_tag "core-016-a.svg"
     %h1.header-logo
       Foundry ∞
     %section.header-content
-      %h2.header-subtitle{ data: { toggle_content: "less" } }
-        Providing a new generation of vector assets and infinite possibility for the interactive web and mobile applications from the designers at
+      %h2
         = succeed "." do
-          %a.thoughtbot{ href: "http://thoughtbot.com" }<
-            thoughtbot
-        %button.subtitle-linktodescription.more{ data: { toggle: "more" } }
-          more
-      .header-description{ data: { toggle_content: "more" } }
-        %p
-          SVGs are amazing. Finding new and interactive ways to share visual information, art, and fun is awesome and SVGs let us do this in ways that aren’t possible in raster art.
-        %p
-          Foundry is a new way of utilizing scalable vector graphics, giving designers the opportunity to contribute and collaborate on families of spot vector illustrations and icons and make them available for download/purchase. No more hunting around google for ten minutes to find just the right icon or wasting time recreating an iPhone when you know it’s already been done a thousand times.
-          %button.subtitle-linktodescription.less{ data: { toggle: "less" } }
-            less
-    %nav.header-linkto
-      = link_to "Gallery", "#gallery", class: "header-linktogallery button"
+          Open source SVG illustrations from the designers at
+          = link_to "thoughtbot", "thoughtbot.com"
+
 .signup
   %form#mc-embedded-subscribe-form.validate.signup_form{ action: "//thoughtbot.us11.list-manage.com/subscribe/post?u=04f9ab7c6af5b2f23b1545be2&id=8790e2dc86", method: "post", name: "mc-embedded-subscribe-form", novalidate: "", target: "_blank" }
     %label.signup_label{ for: "mce-EMAIL" } Subscribe for Updates

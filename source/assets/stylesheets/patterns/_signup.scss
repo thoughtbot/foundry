@@ -1,6 +1,7 @@
 .signup {
   border: 1px solid $page-header-color;
   color: $base-font-color;
+  max-width: $row-width;
   padding-bottom: 4em;
   padding: 1em;
   position: relative;
@@ -8,6 +9,10 @@
   @media #{$small} {
     margin: 1em 1em 0 1em;
     padding: 3em;
+  }
+
+  @media #{$large} {
+    margin: 1em auto 0;
   }
 
   &_form {
