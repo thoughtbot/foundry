@@ -1,10 +1,8 @@
-var gulp, svgo;
-
-gulp = require('gulp');
-svgo = require('gulp-svgo');
+var gulp = require('gulp');
+var svgo = require('gulp-svgo');
 
 gulp.task('default', function () {
-    gulp.src('lib/**.svg')
+    gulp.src('lib/*/**.svg')
         .pipe(svgo())
         .pipe(gulp.dest('dist'));
 });
