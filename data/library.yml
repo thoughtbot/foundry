@@ -6,6 +6,13 @@ families:
     path: "/foundry-core/"
     author_handle: "@whmii"
     author_url: "https://twitter.com/whmii"
+  foundry-progress:
+    title: "Progress"
+    repo_url: "https://github.com/thoughtbot/foundry-progress.git"
+    description: "A family of animated spinners, loaders and progress bars."
+    path: "/foundry-progress/"
+    author_handle: "@joshuaogle"
+    author_url: "https://twitter.com/joshuaogle"
   foundry-fellowly:
     title: "Fellowly"
     repo_url: "https://github.com/thoughtbot/finite-fellowly.git"
