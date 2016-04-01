@@ -44,6 +44,8 @@ set :css_dir, 'assets/stylesheets'
 
 set :js_dir, 'assets/javascripts'
 
+set :lib, '../lib'
+
 set :images_dir, 'assets/images'
 
 activate :relative_assets
@@ -70,6 +72,16 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  after_build do |builder|
+    src = File.join(config[:source],"../lib/")
+    puts "Hey there!" + src
+    dst = File.join(config[:source],"assets/components/")
+    puts "Hey there!" + dst
+    builder.source_paths << File.dirname(__FILE__)
+    puts "Hey there!"
+    FileUtils.copy_entry src, dst
+  end
 end
 
 ::Middleman::Extensions.register(:gallery, Gallery)

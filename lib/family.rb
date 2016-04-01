@@ -1,5 +1,5 @@
 class Family
-  SVG_BASE = "source/assets/components/"
+  SVG_BASE = "lib/"
 
   attr_reader :name, :path, :repo_url, :description, :title, :author_handle, :author_url
 
