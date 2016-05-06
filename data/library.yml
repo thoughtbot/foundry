@@ -15,7 +15,7 @@ families:
     author_url: "https://twitter.com/joshuaogle"
   foundry-fellowly:
     title: "Fellowly"
-    repo_url: "https://github.com/thoughtbot/finite-fellowly.git"
+    repo_url: "https://github.com/thoughtbot/foundry-fellowly.git"
     description: "The second family of Foundry ∞, built for health and happiness."
     path: "/foundry-fellowly/"
     author_handle: "@whmii"
