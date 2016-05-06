@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160px" height="160px" viewBox="0 0 160 160"
+  role="img" aria-labelledby="title" aria-describedby="desc">
+  <title id="title">Drafting compass</title>
+  <desc id="desc">A pair of drafting compasses, one open and one closed</desc>
+  <circle fill="#999999" cx="81" cy="83" r="1"/>
+  <rect x="80" y="83" fill="#999999" width="2" height="5"/>
+  <path fill="#333333" d="M80.3000031,113c0,0-1.3000031-2.7000122-1.3000031-6s0.8999939-6,2-6s2,2.7000122,2,6
+    s-1.3000031,6-1.3000031,6"/>
+  <rect x="96" y="76.1000061" fill="#666666" width="29" height="0.8999939"/>
+  <rect x="110" y="68" fill="#bbbbbb" width="1" height="17"/>
+  <rect x="110" y="77" fill="#aaaaaa" width="1" height="8"/>
+  <rect x="110" y="25" fill="#666666" width="1" height="35"/>
+  <path fill="#bbbbbb" d="M110.5,30C103.5999985,30,98,35.6000061,98,42.5S103.5999985,55,110.5,55S123,49.3999939,123,42.5
+    S117.4000015,30,110.5,30z M110.5,54C104.1999969,54,99,48.8999939,99,42.5S104.0999985,31,110.5,31S122,36.1000061,122,42.5
+    S116.8000031,54,110.5,54z"/>
+  <ellipse fill="#e0e0e0" cx="110.5" cy="15" rx="2.5" ry="1"/>
+  <rect x="109" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="109.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <rect x="108" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="108.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <rect x="110" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="110.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <rect x="111" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="111.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <rect x="112" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="112.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <g>
+    <path fill="#e0e0e0" d="M116,134l-2,6h-2V52.3999939c0-0.2999878,0.0999985-0.5,0.3000031-0.7000122l2-2
+      C114.9000015,49.0999756,116,49.4999695,116,50.3999939V134z"/>
+    <polygon fill="#666666" points="114,144 112,146 112,140 114,140   "/>
+    <g>
+      <circle fill="#bbbbbb" cx="116" cy="134" r="3"/>
+      <circle fill="#666666" cx="116" cy="134" r="0.5"/>
+    </g>
+    <circle fill="#bbbbbb" cx="114" cy="78" r="1"/>
+  </g>
+  <g>
+    <path fill="#e0e0e0" d="M105,134l2,6h2V52.3999939c0-0.2999878-0.0999985-0.5-0.3000031-0.7000122l-2-2
+      C106.0999985,49.0999756,105,49.4999695,105,50.3999939V134z"/>
+    <polygon fill="#bbbbbb" points="109,145 109,140 108,140   "/>
+    <g>
+      <circle fill="#bbbbbb" cx="105" cy="134" r="3"/>
+      <circle fill="#666666" cx="105" cy="134" r="0.5"/>
+    </g>
+    <circle fill="#bbbbbb" cx="107" cy="78" r="1"/>
+  </g>
+  <rect x="110" y="69" fill="#aaaaaa" width="1" height="1"/>
+  <rect x="110" y="71" fill="#aaaaaa" width="1" height="1"/>
+  <rect x="110" y="73" fill="#aaaaaa" width="1" height="1"/>
+  <rect x="110" y="75" fill="#aaaaaa" width="1" height="1"/>
+  <rect x="110" y="77" fill="#999999" width="1" height="1"/>
+  <rect x="110" y="79" fill="#999999" width="1" height="1"/>
+  <rect x="110" y="81" fill="#999999" width="1" height="1"/>
+  <rect x="110" y="84" fill="#777777" width="1" height="1"/>
+  <rect x="110" y="83" fill="#999999" width="1" height="1"/>
+  <rect x="125" y="76" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="125" y="76.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="125" y="77" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="125" y="77.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="125" y="75" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="125" y="75.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="90" y="76" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="90" y="76.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="90" y="77" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="90" y="77.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="90" y="75" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="90" y="75.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="36" y="77" fill="#666666" width="33.1000061" height="1"/>
+  <rect x="50" y="69" fill="#bbbbbb" width="1" height="17"/>
+  <rect x="50" y="78" fill="#aaaaaa" width="1" height="8"/>
+  <rect x="50" y="25" fill="#666666" width="1" height="33"/>
+  <path fill="#bbbbbb" d="M50.5,30C43.6000061,30,38,35.6000061,38,42.5S43.6000061,55,50.5,55S63,49.3999939,63,42.5
+    S57.3999939,30,50.5,30z M50.5,54C44.1999969,54,39,48.8999939,39,42.5S44.1000061,31,50.5,31S62,36.1000061,62,42.5
+    S56.8000031,54,50.5,54z"/>
+  <ellipse fill="#e0e0e0" cx="50.5" cy="15" rx="2.5" ry="1"/>
+  <rect x="49" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="49.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <rect x="48" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="48.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <rect x="50" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="50.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <rect x="51" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="51.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <rect x="52" y="15" fill="#e0e0e0" width="0.5" height="10"/>
+  <rect x="52.5" y="15" fill="#bbbbbb" width="0.5" height="10"/>
+  <g>
+    <path fill="#e0e0e0" d="M66.5,132.7000122l-1.1999969,6.2000122l-2,0.2999878l-12-86.7999878
+      c0-0.2999878,0-0.5,0.1999969-0.7000122l1.6999969-2.2999878c0.5-0.7000122,1.6999969-0.3999939,1.8000031,0.5L66.5,132.7000122z"
+      />
+    <polygon fill="#666666" points="65.8999939,142.7999878 64.1999969,145.1000061 63.3999939,139.1000061 65.3000031,138.8999939
+      "/>
+    <g>
+      <circle fill="#bbbbbb" cx="66.5" cy="132.7000122" r="3"/>
+      <circle fill="#666666" cx="66.5" cy="132.7000122" r="0.5"/>
+    </g>
+    <circle fill="#bbbbbb" cx="56.8000031" cy="77.5" r="1"/>
+  </g>
+  <rect x="50" y="70" fill="#aaaaaa" width="1" height="1"/>
+  <rect x="50" y="72" fill="#aaaaaa" width="1" height="1"/>
+  <rect x="50" y="74" fill="#aaaaaa" width="1" height="1"/>
+  <rect x="50" y="76" fill="#aaaaaa" width="1" height="1"/>
+  <rect x="50" y="78" fill="#999999" width="1" height="1"/>
+  <rect x="50" y="80" fill="#999999" width="1" height="1"/>
+  <rect x="50" y="82" fill="#999999" width="1" height="1"/>
+  <rect x="50" y="85" fill="#777777" width="1" height="1"/>
+  <rect x="50" y="84" fill="#999999" width="1" height="1"/>
+  <rect x="65" y="77" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="65" y="77.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="65" y="78" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="65" y="78.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="65" y="76" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="65" y="76.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="30" y="77" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="30" y="77.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="30" y="78" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="30" y="78.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <rect x="30" y="76" fill="#e0e0e0" width="6" height="0.5"/>
+  <rect x="30" y="76.5" fill="#bbbbbb" width="6" height="0.5"/>
+  <g>
+    <path fill="#e0e0e0" d="M34.5,132.7000122l1.1999969,6.2000122l2,0.2999878l12-86.7999878c0-0.2999878,0-0.5-0.1999969-0.7000122
+      l-1.6999969-2.2999878c-0.5-0.7000122-1.6999969-0.3999939-1.8000031,0.5L34.5,132.7000122z"/>
+    <polygon fill="#bbbbbb" points="37,143 37.6000061,139.1000061 36.6999969,139  "/>
+    <g>
+      <circle fill="#bbbbbb" cx="34.5" cy="132.7000122" r="3"/>
+      <circle fill="#666666" cx="34.5" cy="132.7000122" r="0.5"/>
+    </g>
+    <circle fill="#bbbbbb" cx="44.1999969" cy="77.5" r="1"/>
+  </g>
+  <circle fill="#666666" cx="50.5" cy="58.5" r="2.5"/>
+  <circle fill="#666666" cx="110.5" cy="58.5" r="2.5"/>
+  <rect x="79" y="87" fill="#333333" width="4" height="20"/>
+  <circle fill="#333333" cx="86" cy="100.5" r="0.5"/>
+  <circle fill="#e0e0e0" cx="81" cy="100.5" r="0.5"/>
+  <polygon fill="#999999" points="81,115 80.3000031,113 81.6999969,113 "/>
+  <rect x="84" y="98" fill="#666666" width="2" height="5"/>
+  <rect x="84" y="99" fill="#555555" width="2" height="1"/>
+  <rect x="84" y="101" fill="#555555" width="2" height="1"/>
+  <rect x="84" y="102" fill="#343434" width="2" height="1"/>
+  <rect x="83" y="100" fill="#333333" width="1" height="1"/>
+  <path fill="#444444" d="M80,87v20c0,2.1000061,0.3999939,3.8999939,0.6999969,5h1.3999939
+    c0.3999939-1.1000061,0.8999939-2.8999939,0.8999939-5V87H80z"/>
+</svg>

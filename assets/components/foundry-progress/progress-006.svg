@@ -1,0 +1,50 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="50px"
+  height="50px"
+  viewBox="0 0 50 50"
+  id="progress-006"
+  class="progress-006">
+  <circle
+    class="shape"
+    cx="10"
+    cy="25"
+    r="10"
+    fill="#000">
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 8; 2"
+      begin="-0.333s"
+      dur="0.5s"
+      repeatCount="indefinite" />
+  </circle>
+  <circle
+    class="shape"
+    cx="25"
+    cy="25"
+    r="10"
+    fill="#000">
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 8; 2"
+      begin="-0.166s"
+      dur="0.5s"
+      repeatCount="indefinite" />
+  </circle>
+  <circle
+    class="shape"
+    cx="40"
+    cy="25"
+    r="10"
+    fill="#000">
+    <animate
+      attributeName="r"
+      attributeType="XML"
+      values="2; 8; 2"
+      begin="0s"
+      dur="0.5s"
+      repeatCount="indefinite" />
+  </circle>
+</svg>
