@@ -23,14 +23,7 @@ With an initial seed of ~200 spot illustrations that exist as a cohesive set, na
 
 Foundry's library architecture will be similar to that of a type foundry. As one foundry might have half a dozen font families, with weights and alternates within them, each foundry family can have a particular style, a set of goals, and potential applications. We could have a few established families or groups that are built out over time. Then, as the need and availability arises, more families will be added that blaze new territory in visual direction or theme.
 
-### Initial Project Goals
-
-- [x] implement basic documentation and value prop in private tb repo
-- [X] add initial seed of family alpha and establish an initial framework around it
-- [X] create an initial set of illustrations based arround design and development that can be used, off the shelf, for thoughtbot projects
-- [X] look to refine family alpha within the repo as a test of process and collaborating within a small group on a set of icons/illus
-- [ ] create a backlog outlining the transition from an internal tool, to a public product
-- [ ] profit :laughing:
+---
 
 Foundry Progress
 ===============
